@@ -1,0 +1,2177 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.topdownrpg",
+    "pixelsRounding": false,
+    "projectUuid": "4938f3ac-05fe-4d9d-8765-f3f4fc024acb",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "top-down-rpg",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "UCSC Epic Gamer Moment",
+    "description": "Defeat evil",
+    "author": "",
+    "windowWidth": 640,
+    "windowHeight": 480,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [
+      "rpg"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/598115de3218e40b85b8207a63eae3888d0231a627e0ad74bc975a1b348cc4b1-ACharDown1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4ab54a7613b7cd571a7c6148fb06bcd55359c67139da3c1fb2d03d49d3e4962d-ACharDown2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2fa34e897e69514518d4e8dc05f63c52287aa8561de79b7018687aefae05c857-ACharDown3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6c52f70e7da1b681b42bc1fa2302de0f42eb5d7e5154fc795e6247cceb7146c2-ACharDown4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4c8d45999a6759da783d91899a126ea6745053cac38b66b22d2ddd865b09d6a6-ACgarRight1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b4d41cdd00a121e5a355c5b33e2ca571eeb4da6f5324f7e656b6ebd00eac0265-ACgarRight2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/226393ccd33b4d389f96abe9c4baeef934752a8076c0033bfe48f868ead274f0-ACgarRight3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c53a3ab3b7691ef310b51bd21d3c11ecbd21aced08a461731d2223d00cb83e2f-ACgarRight4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/729ea7c7aa7cb3cb76ace4a7bbbf46d5a3d1951eec82e5a99dcd5bd3619dc682-ACharLeft1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1b5e2a1b1432676304d10befbd03f92648738b03bd9f72c19a7ea8a660f40b6a-ACharLeft2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5e9bf9eddc29c43d8e74f0092529c65195e3dd28d540ba4fd7b37266f91d156a-ACharLeft3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/68051e8e25b646428e33995e585935c89ae4e7dbd2ece66ee0be7b6bf457081d-ACharLeft4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7b74fa44f992b041cdd9df46c84534804175633e84c3a4398576f778444df144-ACharUp1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b6ad74bdede7e797925ea0a60ece04e76c8e019505d5db4381f68f208042273d-ACharUp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7b74fa44f992b041cdd9df46c84534804175633e84c3a4398576f778444df144-ACharUp3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ac710c6e027b199b20b91d8d492808589f693061fa1ae02134bbd81203cd3a49-ACharUp4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0e4f1dc71381d72ccd0f1aa8e583ff24b30970a98ee6b3f81bd440486780634f-Dock1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dock1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9ea701041284bd4900ecd095bc1de49ee91a42ee3383f584f21205e1ed30ff72-Tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9646d39ae0521198ae469f274a889df9b5a6db60c79dd1b3f45a14ac0943906c-Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/63cb18412231b1bd753020b61baf7f20b4032ae47a14bef369dfcc2e53de1e83-Bush1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/fa95dd5a4c05b7bd897881f60a8433ec3ec38c5fc63cc08a9e8d1df85d5114f7-House1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c897e2d6c709255a1747db047af1ac8cd15689690d3376672704841604b537d3-House2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b40782136b6679839e7f0492cc1e82e4b64c047acc4c9542647acc1bf701f0d8-WaterCorner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/94cac5ad8ec4c83964105e50025890f88f8f959a2bc0521ca213342531bbac59-Grass1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Grass1.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Grass1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/781500aa0dc0521e339b835a002ce7c54a0732bc30ef89f790e3a7ce3f5bc9bf-WaterEdgeRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeRight.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0d0701623fe529a2be865ce2618e39befcae9f0d6593ec70cf39d3d6d7f019ea-WaterEdgeUp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeUp.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/036d201f53f22c5be241b17ae34e2ead726d826ffe18e39f3911c8b1287b32ad-Water1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Water1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/861302eb292a16add2d44e1844cad6314316016754226f0d9eca7f3e63516a55-RoadEdge1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RoadEdge1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f2896b8d494ba950c5e4623a68a67bcb54955a19d0efa111df7646037759af98-Enemy_Spawn_Location.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy_Spawn_Location.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134-8BitOperatorPlus8Regular_Edited.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1118dc404ecf90d73c29dbc104c1f4d91b09e8d733e10db96a51a68b6cccfb74-8BitOperatorPlus8Regular_Edited.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/05ecd64f1c91a6829602b38fba30e6ee390053c063d5c31084423ba5d3cabd14-Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f658987acc6831462b2b708842db73eb5d455d414b0c281f1e2237c335972585-Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/087fc67c4a19d0ca8604964b6a3a76a15a286a5d335b19ca3fcb7e0b68437110-Attack.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.1,\\\"sustainPunch\\\":50,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":19,\\\"tremoloFrequency\\\":27,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-4800,\\\"frequencyDeltaSweep\\\":-4100,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Attack\"}}",
+        "name": "Attack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5a7017dfeb1fcf485637038e397a3d747faff0725a257ae6ba044c87b5665351-Talk.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03461516912647311,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":0,\\\"decay\\\":0.2,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":399.07212207604067,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":0.8611028349862437,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":370,\\\"vibratoFrequency\\\":572,\\\"squareDuty\\\":10,\\\"squareDutySweep\\\":-30,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Talk\"}}",
+        "name": "Talk.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ed9b31887a5d4d037800745b0876cedef479b5f71f8d9fa0b48285723348e761-HoverSound.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.011876134915122183,\\\"sustain\\\":0.01,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1012.4426242250636,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":995.5111583241919,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.71,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"HoverSound\"}}",
+        "name": "HoverSound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ebea544378a3c669326d435cd226316f755708c092a4f16a37a260157e109ad5-Road1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b882408499ab94cc970f636119f26f4407205a6dc63dfef681557927929bc5c3-WaterCorner2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0c413cdf0f57a3352152f8f6350ee0faeb67cc896718ad271de4d8efec9dbc4a-Creature_Player.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creature_Player.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b7660baa161e77c4a6f01927516e87e4d07f43bb2f389ad6aaf02c04421bf439-Creature_Enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creature_Enemy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c1912ee16c95a37c2df2afd47ad85b4a16aaf6fd57a3e95dd4f72d287c0914e0-thumbnail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumbnail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc-Shaded dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc_Shaded dark joystick border.png",
+          "name": "Shaded dark joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460-Shaded dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460_Shaded dark joystick thumb.png",
+          "name": "Shaded dark joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c5000e895059b2c0a88a1ae08875e125aa6d68638ef303e2381c0dd875db6474-Target round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Target round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/abb64f9b109c792191a2f50aee5fb4703bdf2392d821e771303ee07dfeb85166_Target round button.png",
+          "name": "Target round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798-Flat Bar Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e-Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf-Flat Heart Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
+          "name": "Flat Heart Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a-Flat Heart Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
+          "name": "Flat Heart Filled.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/233c71b569c46375ca9fcc912e59bdbd170257e1cf59680c46eb8dbda483a3d4-Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b930425dd7e21d604f21b46ec59498c5f1be481616243629d8857470923af4b3-Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0293f2881af47d324a454b22b597d2c3d44ed87b0b8637529c27280d5789e99d-Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/768f30f7e0cf2981ecf467f76b1e4f4975f7d039556f2a7a6f4a213a587d74be-Down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/888c1420cdf51cdf2c228cc726ff2dff3ae6161c0fd105445e73fcf515c9a8ae-Right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7a1933a5d298da5cb7387a2fc24e3d4136479ad5fac9f5dd92879e81e65b2136-Right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/33cde8f57609cf8cd913f3d17304201be4cffa2b80fb117bc3e560b0ae60ab8e-Right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b7d4bde3ace0de6ed36b1beb2fcf32f1875c38872572f55b2737189a60f17961-Right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/602643e4ed97776e211e68dd141798bd9929e050a0367446ac1243db793f93a2-Left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/e48d316592670e03e40566b1db1891248398116ee6baa975a48c8d01cee797e7-Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5ca9542bfffc50d9f6a694b7943e5a00379d1a0337fe2a6bb75cd790215a71ee-Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a8ceb153e8dfaf89a1bd0b14db2a940248ed7bf7b2c115a0a044419cf7b804e9-Left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2e7830c1649893d48a02bd246b70faf46420f1bd6940f90423a9179df8d81d3e-Up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/02cb815eecb64834d1f76d6be651110c38752a48a3bbf3c90a173980d11e40be-Up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/8d9be7d2c2817a97b01fb78a40957a7f12cba8532425b2948da1f0a76c40bf6b-Up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/df1be13f9667bc2093f6c9577697ab86ce14fffdf36adc4ab35a10d2af09515e-Up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/8265c635c5b7976d851b828b5b773252cec2b5ffa858ca9bcc323d990e7df220-Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f5645de0ccd5fe3450097812461d09676b44c22684d250163f1af97c0e4953d5-Grass.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Grass.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/e98b7b30cf24bde310a529822d3e2d848ec852aabff0ecaa31b1e127aa989a25-Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Water.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/807099533191743f8fa39ba81e0ca41ba46feb6f5579202d061b416f19c48bf7-WaterCorner3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WaterCorner",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/57178ffbac7cbf64e6d2b7decd4afb77ad3903f74f69525d94551b81c8792fca-WaterEdgeRight.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "WaterEdgeRight.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2ab50693689b72fb3ac5808e3cc2f737fb7ca37a465e68e2ec8f15b391c2d823-WaterEdgeUp.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/WaterEdgeUp.png2.png\"}",
+        "name": "WaterEdgeUp.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0152a88c9e6f299e3348b34154c61e095dc57ddd947df889d9f073068629a77e-WaterEdgeUp.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "WaterEdgeUp.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/bc8a7ad855f63c3f5aa670020ec9792b10e4c1f99a20e2e04651acfac08f53dc-WaterCorner4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WaterCorner2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ded9006a0d942597c16aecc8776c3eb6870da4b5ff2192e94f7b361dfba3a444-WaterCorner5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WaterCorner3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2eaaaaebd7893000e5c496793d83599237cda6086ca56a213bbfe40b24ed44fb-Basic_Grass_Biom_things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Basic_Grass_Biom_things.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5f1f73faf9904acdc3a5c42d01cbc63c290dcb087ae643cc5a67732bb834d420-Tree3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5f1f73faf9904acdc3a5c42d01cbc63c290dcb087ae643cc5a67732bb834d420-Tree3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5f1f73faf9904acdc3a5c42d01cbc63c290dcb087ae643cc5a67732bb834d420-Tree3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/086202cf3e889f12a20de9a42af57639bbd9eacbc032350bab7c3bb61b1dea2a-Tree4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f25db2f3c9389305a5ebfbacb44b0b901b24fe220332051be1a57b6e5817fe72-Tree5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6a0785f9953bdbcaacdf7a09fa11ca631cc2a1c5e33e8ee5f50f1abfe5fc9ab0-Tree6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d74798a8dd9c1ac65e65a7411464e1f04f15937ed3df42975fd3bcf9f92615d7-Tree7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/e27f86cb775cfd935ca83d3f1c904123f250911feab4f5769289ad73f71ba40b-Tree8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/31b09a877e726ba34beb0f1642a670e7f2cb7a4a7f8950170ebe7b88f99663f7-Tree9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/dd1bde16477da5441e75042e1f702e59aac008d34550decbb1382663dd2b0501-Tree10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c60f6ea51bbac2e7b4adf2cb8736573afe8cecbd5359f168b69a2c32e667b70f-Tree11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/35f57be59b775db2bba32a7227820d518b40632a8f5dfef607d6ad21ef34f731-Tree12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c36727e4ba327813dfe7f560fb30d9cd99d9778456a4fe145c2f26cf454d0a6f-Tree13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ca481c1a7710c5a53cc13b927fe5e60852a07ad5af1e92e143d5c5928ea4c9ec-Tree14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c8db35b2d906b63a983a98ab9cc0dcd1fd613a37e9554dcd0408184ad097cc28-Tree15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/bbf49b80f4de3bd899d360c40bf6c55b8e52a295b22c9a5e909621609b8c787c-Tree16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/be63d3f4aa6be2b671137512f20ad629685288731d27fe326a9821f94aa5e7df-Tree17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/491095d1e3a6f4d1ada6b5bc347e2baa0bea7379b766090be181e9c84dc4cc19-Tree18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2eaaaaebd7893000e5c496793d83599237cda6086ca56a213bbfe40b24ed44fb-Basic_Grass_Biom_things2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Basic_Grass_Biom_things2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f781babdecbc19183ec5964f924ed9f3e07109959f5d93a82597c2fd75b738e2-Tree19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4836cabe3b81188cc6d938599825f22265974d3c94f5362ad51e9e0570e970bd-Tree20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tree20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2eaaaaebd7893000e5c496793d83599237cda6086ca56a213bbfe40b24ed44fb-Basic_Grass_Biom_things3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Basic_Grass_Biom_things3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f781babdecbc19183ec5964f924ed9f3e07109959f5d93a82597c2fd75b738e2-Basic_Grass_Biom_things3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Basic_Grass_Biom_things3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2eaaaaebd7893000e5c496793d83599237cda6086ca56a213bbfe40b24ed44fb-Basic_Grass_Biom_things4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Basic_Grass_Biom_things4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a540a5ba1c95bf39c921a683d0808e372a9308d847adc2051c97920d648809df-Basic_Grass_Biom_things4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Basic_Grass_Biom_things4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0114f106cce10662dcb1e9c148620b1cabe3f7ab92ccd48d0bba1b3eade4960c-Bush2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bush1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0114f106cce10662dcb1e9c148620b1cabe3f7ab92ccd48d0bba1b3eade4960c-Bush2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bush2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/945e17113fcd7b6016b453cd2f1d0c30fc6244b1b630f0c658dcdfba505557f6-Bush3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bush3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/2eaaaaebd7893000e5c496793d83599237cda6086ca56a213bbfe40b24ed44fb-Basic_Grass_Biom_things5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Basic_Grass_Biom_things5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/87a7ab0ef0f9214442468b17d7f398f6c306240f12be8780bd192ca90864be7d-Basic_Grass_Biom_things5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Basic_Grass_Biom_things5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9e4972372869050ac4d001a70d4478ad04ace9d44939f85552969946996fd4df-mushroom1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mushroom1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7216fb1225c772c80c0b89db52553c3a92cf6c7b35430374d7796b73861b815e-mushroom2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mushroom2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a1021c0fc506cae4bb2770e4ed506ad7b6ae7b24c8eb387f9e44821301bfe268-mushroom3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mushroom3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4611697eb24664f598415f233cfa51a6c9df4144aa708b370b558069777d8cfa-mushroom4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mushroom4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5e21a8a4b6befc117e61e18d0e44d878d72cef6bd3c3e80e6f79a0ad5365b6f8-mushroom5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mushroom5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a0758a0de96a5d4a9aca658b3922392f688f62e639f8dcdb030e26b6d01e28b0-Down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a6eab94974bc2b149cc7967245d0a38ea7491e41eadf4c48b4c746b65c6a4b6e-Paths.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paths.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/47ac48dfcd0035b2b46c2f0e071919b1d81e917ab98d32b2e0fb2e3d890e9503-Paths.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Paths.png2.png\"}",
+        "name": "Paths.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ef1cd1d37db16d36dbe524c5859adec8c053493e5ec8283fbe89972940d8c5e3-NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/744a1ad10f55920e459e4b5f2779b5848d633cdb03ed1dae38d1b015969264b0-Paths.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Paths.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ed96dd526424ad5241c0a9e7323d8f7f651fb669d5192c68bb9f65a1a0436bd9-NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/532d532f83b015bc5669f69be240046ae81ea5153386a5968816f325a21830f9-NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b0665e73d8e353f2817e6980c6369ce6de1468a490a25844b38cd560832fc67d-535222__spycrah__grass-step-right.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "535222__spycrah__grass-step-right.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/75d7e46b5e9f77e1aa184f57d3ffb56a3c078b0dc12b0021547718a053250a17-grass-step-right.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "grass-step-right.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b0346fcc8d8a56f913765ee89126b1569107847596d12ef2f6f11afb39504eac-Flat Heart Filled.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/690a15be921f6dc5ace7d2f03ca15789684fa5216eb9db7a574773a1fe0f2650-Flat Heart Filled.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/cd6342e872d6fe518e9ff9945af93826a119e2bfaee6664bfeb5d099146f8988-Flat Heart Filled.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/27c6c8656d2b10ec14386d130175b123e47df28cf7731fe4f1836ab4d0f2c4a3-Flat Heart Filled.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0352a5f5d85334041bcddbaca7241cfaa14ea786b5e28638e2f6af8ebd1aac4e-Flat Heart Filled.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/87a7ab0ef0f9214442468b17d7f398f6c306240f12be8780bd192ca90864be7d-Flat Heart Filled.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/78e4c3ecf5f28d958a30e30f8b25e268653cc397fd66e7183791539a5d5aee91-Flat Heart Filled.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ecf8e5bf94cb37fd396605029e44df64859c329dbe13a4108bd760954499529d-Flat Heart Filled.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9e4972372869050ac4d001a70d4478ad04ace9d44939f85552969946996fd4df-Flat Heart Filled.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/761c4172e833696bcba574dd75c4a729659bb62736b1ac0b8490d33b57ba6b47-Flat Heart Filled.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/55f7e736ae136c365533aea581cf4b3563c347f0795d36918a99af4d983ce986-Flat Heart Filled.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b5b4132158d55d7de4cecd58e33caab5a7d540d874c37d84141c0a5e65fdf2f0-Flat Heart Filled.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/dc6badf6fff980352477bd90bd1d5fc1b40beee7fde766210a0772b3e126150e-Flat Heart Filled.png14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ec0a120f558bedaf51d8a4e006955561be40e871174b3c4eebf7a52ff5092100-Flat Heart Filled.png15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7216fb1225c772c80c0b89db52553c3a92cf6c7b35430374d7796b73861b815e-Flat Heart Filled.png16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a1021c0fc506cae4bb2770e4ed506ad7b6ae7b24c8eb387f9e44821301bfe268-Flat Heart Filled.png17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0c3b5305a81085fa42284416a38d210e20aaf1573fdf87ce5372cd723813525d-Flat Heart Filled.png18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/989ed1f9bb8bd71d8981b4d6ba88cf2e04f728621f218d8321bcb054cf4fd1c0-Flat Heart Filled.png19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a19c66099449b95e269caf23a05ef94347cfadd782cd163cee1e5a8a16cbb995-Flat Heart Filled.png20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/616f6c429f55d81ddef3c649565701819b11218cebff77343b236e8a7ee3d30c-Flat Heart Filled.png21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/59db832922ab3a322b9c8ff9e0e75bf9141926906eb59f7084e88a18681ed3cb-Flat Heart Filled.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/32ec591a42b6b5b225bfa780e4d1eafddeb579ac79db331f5f65b2db0a2bacf7-Flat Heart Filled.png23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/10d43e680134dd5405448cb0edd18645b5ddcf78b89aa63972c2d2b05fa2aec5-Flat Heart Filled.png24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/823febe2a7c93f28b2d911f1d90b42a90a3437208ab6a0fb4b8bf39301e40f86-Flat Heart Filled.png25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d543ad26fa6fb1f975a429b6a00c8d7b9c94ce3342af68ccf8b92d9aa6be63a8-Flat Heart Filled.png26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4611697eb24664f598415f233cfa51a6c9df4144aa708b370b558069777d8cfa-Flat Heart Filled.png27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/569604071bb9666910499e9714cb7862275b8fffb5f192016e1e8b58221e28af-Flat Heart Filled.png28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/60c88f339e6ac287f7bed4d2f149d3d3fea46d252a90768f5c2628f80331e82c-Flat Heart Filled.png29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/945e17113fcd7b6016b453cd2f1d0c30fc6244b1b630f0c658dcdfba505557f6-Flat Heart Filled.png30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png30",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9176411b0ecc3b5dbbd73d6fcd199abf6b71285bf8b3510f513c21c515f302aa-Flat Heart Filled.png31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/983ec96c3f1c62049e4178acff1c95c8dcdb4d6543e17a0ecdd4ab40fd4dcbbd-Flat Heart Filled.png32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c347c8d01e8faa65566167887a2ebb261f9dcce064976be08c16ad47c6df1bb5-Flat Heart Filled.png33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png33",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5e21a8a4b6befc117e61e18d0e44d878d72cef6bd3c3e80e6f79a0ad5365b6f8-Flat Heart Filled.png34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png34",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/75ba74622eccb0f45f84363274bed2cb8ab78b7e3fe7515ab87986c31ed6de3b-Flat Heart Filled.png35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png35",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/eec2fd0a79ea92540b824a77598dcfbc28f9f34fde3908f133110fa1af3982b4-Flat Heart Filled.png36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png36",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/79fb2e3449fe1d75ab99219278e7366e6fb5ca77b8d2ba1c45ac6ccfd0a19d93-Flat Heart Filled.png37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1a95c1f87ad9b43c54ee19561b38d913d706cde9a30b1689c1ce59ac6e1c4983-Flat Heart Filled.png38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/8ed885070cebf9f3724cc9d11e9e8a67a5c71e2d7b8d77705b0ebd2fece3b033-Flat Heart Filled.png39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/b5933a27136db5a92c1c2febfbd7866c8ab92514510c0114133235928fbd0937-Flat Heart Filled.png40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/cc3b7a3158676bdb8880a038e7d4c109f9c49d869e1ff0257825ecd8cd2cf7e8-Flat Heart Filled.png41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/74fb8aad13f27fef2c82154273791df10c24a0a72fb4e2bc32b53e05a0d3949d-Flat Heart Filled.png42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/442223c221b881e5ea48ea059a989f6ca8718bd681d92a6d2e57e5bb41c62877-Flat Heart Filled.png43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0c29f1058f87580c73ca0e921a64c2252d5c5901db0a929c7d9591460992ec4e-Flat Heart Filled.png44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6cd5e5466b9a10e985c30bcf7bce1e39d09afbf9acee5a8f30e2a28773641f2e-Flat Heart Filled.png45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/11ae0e5e0348f50e3a03a7d2983163ae04294632227fa1fb1454e2db0acb653c-Flat Heart Filled.png46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1e37edffe0464142ce5bbb3271b43333410468911a181b44146c0cb9f965eced-Flat Heart Filled.png47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d70710d02036c6f074e4b4eb461e1ace0c6d995415039926e482142ec8d0cda2-Flat Heart Filled.png48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Filled.png48",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0012a3d2f3e29619cf23aaded329180f2b62425abb69c4bdbe05e38ff44a8fef-Flat Heart Empty.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Empty.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0012a3d2f3e29619cf23aaded329180f2b62425abb69c4bdbe05e38ff44a8fef-Flat Heart Empty.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Flat Heart Empty.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/3e4dd6fb7044eed7b3e433effc095037cbe58eb5e2a34d6280d969fbeacf8612-Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Health Bar/3e4dd6fb7044eed7b3e433effc095037cbe58eb5e2a34d6280d969fbeacf8612_Heart.png",
+          "name": "Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5cb4757c5a6cf5b26d016f3512df648987749b0c2ebab566400a537442bf0f4a-NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ee4fd2266b849eecd265430afcd67d46d0571145d33eec65a72d2f671e1ef09d-Shaded Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded Green Fill Bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/ee4fd2266b849eecd265430afcd67d46d0571145d33eec65a72d2f671e1ef09d_Shaded Green Fill Bar.png",
+          "name": "Shaded Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a-Wood Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Bar Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
+          "name": "Wood Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1cb4923be79607ef59f22690efd6ab583f44c5b9073ce68089bc6cf51093bab8-Shaded Green Fill Bar.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Shaded Green Fill Bar.png2.png\"}",
+        "name": "Shaded Green Fill Bar.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/bb97a4b5177c555f29c085500bf1bad630e7b2816c52296162f2266530d12d67-Shaded Green Fill Bar.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Shaded Green Fill Bar.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/9f531d36e21c4c2f8ea6a1a2d05a9177d3838c713006bb33b1b5b4385c62cebc-Wood Bar Border.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Wood Bar Border.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/66674a0106dcc029cca4b0922ba1991552ea7c1da8dab6a84e1737ef0c75d739-Creature_Enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Creature_Enemy",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6fbcc8bfaa3b6b5b1774fdfbb62023a50ce3365fc27e7df1e4932b75d6b000b4-Creature_Enemy3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Creature_Enemy2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c2fac39b63ed3022703312f46b146ab2f73922057fc9df88127d20800636cc4f-NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/8277f418abde81b5c91f4b6f03b7adcd3eb1bff31de63bb03fc809f88c2f3747-NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a-Black Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
+          "name": "Black Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7e120c3e484461d1c670f538a0bc8f8eb5c621b2f1fbba4d799d568d140ce723-Black Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Black Square Decorated Button_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Black Square Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
+          "name": "Black Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af-Black Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af_Black Square Decorated Button_Pressed.png",
+          "name": "Black Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9-mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d1d8262287bac36cceaa5d24707b0ac44e86cce2af3a0c1a82953ea60fd61359-8BitOperatorPlus8Regular_Edited.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/8BitOperatorPlus8Regular_Edited.png2.png\"}",
+        "name": "8BitOperatorPlus8Regular_Edited.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/1958e4f844716d149f543e2690ae2b15c117440902bdf994290d9765cf357ed9-NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/988c416fbe542d06f503cce6def521d66c8c831b3ef9ab74b182dfedbec636c9-NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/40ad347a36597e34ef9ee579f2637706dbadc214bf39bcdbce47dcdb104e431a-thumbs up.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumbs up.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d8996b03c10357cce60a29e93ad0b2d49bdc34459e2a3ef49054cf47cd7f44e0-NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/d387967aaca38792a012a2a6bf2d4a2b23aad9b18b04813a0ba572d844a3653d-win music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "win music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/949db30b83439822241c6906108e9c4abfb29077688a6ec9c5a91bc4bd515263-shop.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "shop.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/adb7388bec6d5a0c0953f79126d4952b448ee60f82fabee756b93aebc449e6c9-shop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4a752b801126c265282532c4c0fa3402ad3d59265a82aef090306d8da1a80ea0-NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/4222af0f07fc417a491dd31f37f8760ba6754b51d18930f48a8c0c8ddcd6fef2-NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/74a8bd311e93b480646601ad64bf3402c7da3e743679d0faf552ce4f38184d71-NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/64e92b5b727dbadf370f04a91daaa8c7ca75186ef6fca37fa9f59c5e44b1ccf4-Down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/c2dcec4e603b8151738ca8db9baa0170bc9e2a045fd305ba8a9162a49bd4ca38-Down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f9d9aadc62c7133ec6dfa41d3a1ba85d02cf8032bd68ed11a2aa135da4ccc15b-Down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/981643ef46271352ee1bcfadfec153219ff8d74e372a1dc543a42431e1306684-Down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6c8f6df360d85c9987172a782ec2a9bb7cdf1c75e9b269dcd1ea24e795974c25-Right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/5ce0144a47a300a5156b0689dd6050910471661f2ba187c260989968f145b5d1-Right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/6ffb81a59dd7922b11128a7ada32a4fc46e67d4d4e5c5a541db1953310644ade-Right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/ac59adaf50bee1b02a180b0f802282ec278bdb8f577393d6e3527afd1650118a-Right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/8ef6d3e30ac777ee35f6ccadaee93568be590cd3dca37f549d8ca7391def6bd8-Left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/0220a33e40cf24de393f1467c395ed5347f098800dd5e5b235e036e4e0add2bd-Left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/f76de767f4ad3be37ba288a23625913c56ab503143c4712dbe7359f45cdc7794-Left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/81d16a8e02956a5ad2d8d99e9f554e8dfd2917ec3e322383f18b677dd2171697-Left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/299c75496882a05d70747c9d1159e16d373962cb8f6be6c07b42dafe022d7fe0-Up5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/53b393e4ff2faee04f649b4fa03fbafc3ec836efa01b53cab94fd9956fd5f097-Up6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/57d6d109606f0d2da3d12165cdcee6b9daad5828b13a029d1aad7c505e40a317-Up7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "https://project-resources.gdevelop.io/9f37f057-916f-41ff-af3b-64c8cf21363c/resources/a232f6286dda64c9561f9189a669083a0c909bafbe919893910fa4834fb9d88e-Up8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up8",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "TextBorder",
+      "rightMargin": 16,
+      "texture": "Border.png",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Transition"
+      },
+      {
+        "objectName": "TextBorder"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/battle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/poor"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
