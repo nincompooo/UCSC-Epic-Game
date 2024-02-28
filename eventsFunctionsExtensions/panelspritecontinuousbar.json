@@ -647,7 +647,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Value"
         },
         {
@@ -657,7 +656,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxValue"
         },
         {
@@ -677,7 +675,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "PreviousHighValueDuration"
         }
       ],
@@ -2262,7 +2259,6 @@
             "FillBar",
             "Buffer"
           ],
-          "hidden": false,
           "name": "BarLeftPadding"
         },
         {
@@ -2276,7 +2272,6 @@
             "FillBar",
             "Buffer"
           ],
-          "hidden": false,
           "name": "BarTopPadding"
         },
         {
@@ -2290,7 +2285,6 @@
             "FillBar",
             "Buffer"
           ],
-          "hidden": false,
           "name": "BarRightPadding"
         },
         {
@@ -2304,7 +2298,6 @@
             "FillBar",
             "Buffer"
           ],
-          "hidden": false,
           "name": "BarBottomPadding"
         },
         {
@@ -2314,7 +2307,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxValue"
         },
         {
@@ -2324,7 +2316,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "InitialValue"
         },
         {
@@ -2344,7 +2335,6 @@
           "description": "",
           "group": "Animation",
           "extraInformation": [],
-          "hidden": false,
           "name": "PreviousHighValueDuration"
         },
         {
@@ -2354,7 +2344,6 @@
           "description": "",
           "group": "Animation",
           "extraInformation": [],
-          "hidden": false,
           "name": "EasingDuration"
         },
         {
@@ -2366,7 +2355,6 @@
           "extraInformation": [
             "Label"
           ],
-          "hidden": false,
           "name": "ShowLabel"
         },
         {
@@ -2426,6 +2414,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "2 / 3",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
           }
         },
         {

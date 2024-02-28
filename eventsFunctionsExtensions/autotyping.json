@@ -877,7 +877,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Interval"
         },
         {
@@ -1736,7 +1735,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Interval"
         },
         {
@@ -2595,7 +2593,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Interval"
         },
         {

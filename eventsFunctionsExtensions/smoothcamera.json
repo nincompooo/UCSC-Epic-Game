@@ -4525,7 +4525,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "LeftwardSpeed"
         },
         {
@@ -4535,7 +4534,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "RightwardSpeed"
         },
         {
@@ -4545,7 +4543,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "UpwardSpeed"
         },
         {
@@ -4555,7 +4552,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "DownwardSpeed"
         },
         {
@@ -4565,7 +4561,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowOnX"
         },
         {
@@ -4575,7 +4570,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowOnY"
         },
         {
@@ -4586,7 +4580,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowFreeAreaLeft"
         },
         {
@@ -4597,7 +4590,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowFreeAreaRight"
         },
         {
@@ -4608,7 +4600,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowFreeAreaTop"
         },
         {
@@ -4619,7 +4610,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FollowFreeAreaBottom"
         },
         {
@@ -4630,7 +4620,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "CameraOffsetX"
         },
         {
@@ -4641,7 +4630,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "CameraOffsetY"
         },
         {
@@ -4652,7 +4640,6 @@
           "description": "",
           "group": "Timing",
           "extraInformation": [],
-          "hidden": false,
           "name": "CameraDelay"
         },
         {
@@ -4663,7 +4650,6 @@
           "description": "",
           "group": "Timing",
           "extraInformation": [],
-          "hidden": false,
           "name": "ForecastTime"
         },
         {
@@ -4674,7 +4660,6 @@
           "description": "",
           "group": "Timing",
           "extraInformation": [],
-          "hidden": false,
           "name": "ForecastHistoryDuration"
         },
         {
@@ -4945,7 +4930,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "LeftwardSpeedMax"
         },
         {
@@ -4956,7 +4940,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "RightwardSpeedMax"
         },
         {
@@ -4967,7 +4950,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "UpwardSpeedMax"
         },
         {
@@ -4978,7 +4960,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "DownwardSpeedMax"
         },
         {
@@ -5245,7 +5226,6 @@
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
-          "hidden": false,
           "name": "PlatformerCharacter"
         },
         {
@@ -5257,7 +5237,6 @@
           "extraInformation": [
             "SmoothCamera::SmoothCamera"
           ],
-          "hidden": false,
           "name": "SmoothCamera"
         },
         {
@@ -5278,7 +5257,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirFollowFreeAreaTop"
         },
         {
@@ -5289,7 +5267,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirFollowFreeAreaBottom"
         },
         {
@@ -5300,7 +5277,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorFollowFreeAreaTop"
         },
         {
@@ -5311,7 +5287,6 @@
           "description": "",
           "group": "Position",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorFollowFreeAreaBottom"
         },
         {
@@ -5321,7 +5296,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirUpwardSpeed"
         },
         {
@@ -5331,7 +5305,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirDownwardSpeed"
         },
         {
@@ -5341,7 +5314,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorUpwardSpeed"
         },
         {
@@ -5351,7 +5323,6 @@
           "description": "",
           "group": "Catch-up speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorDownwardSpeed"
         },
         {
@@ -5362,7 +5333,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirUpwardSpeedMax"
         },
         {
@@ -5373,7 +5343,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "AirDownwardSpeedMax"
         },
         {
@@ -5384,7 +5353,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorUpwardSpeedMax"
         },
         {
@@ -5395,7 +5363,6 @@
           "description": "",
           "group": "Maximum speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "FloorDownwardSpeedMax"
         }
       ],

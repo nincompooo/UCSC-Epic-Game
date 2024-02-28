@@ -2417,7 +2417,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ControllerIdentifier"
         },
         {
@@ -2427,7 +2426,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "JoystickIdentifier"
         },
         {
@@ -2437,7 +2435,6 @@
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "DeadZoneRadius"
         },
         {
@@ -2862,7 +2859,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ControllerIdentifier"
         },
         {
@@ -2872,7 +2868,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ButtonIdentifier"
         },
         {
@@ -3095,7 +3090,6 @@
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
-          "hidden": false,
           "name": "Property"
         },
         {
@@ -3105,7 +3099,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ControllerIdentifier"
         },
         {
@@ -3118,7 +3111,6 @@
             "Primary",
             "Secondary"
           ],
-          "hidden": false,
           "name": "JoystickIdentifier"
         },
         {
@@ -3128,7 +3120,6 @@
           "description": "",
           "group": "Controls",
           "extraInformation": [],
-          "hidden": false,
           "name": "JumpButton"
         }
       ],
@@ -3657,7 +3648,6 @@
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
-          "hidden": false,
           "name": "TopDownMovement"
         },
         {
@@ -3667,7 +3657,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ControllerIdentifier"
         },
         {
@@ -3680,7 +3669,6 @@
             "Primary",
             "Secondary"
           ],
-          "hidden": false,
           "name": "JoystickIdentifier"
         },
         {
@@ -3694,7 +3682,6 @@
             "360°",
             "8 Directions"
           ],
-          "hidden": false,
           "name": "StickMode"
         }
       ],
@@ -4598,7 +4585,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "ControllerIdentifier"
         },
         {
@@ -4611,7 +4597,6 @@
             "Primary",
             "Secondary"
           ],
-          "hidden": false,
           "name": "JoystickIdentifier"
         },
         {
@@ -4621,7 +4606,6 @@
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "DeadZoneRadius"
         },
         {
