@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 1.7000000000000373,
+    "zoomFactor": 1.7573245611364459,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6871,7 +6871,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Deer",
+      "name": "PlayerSkin3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8123,7 +8123,7 @@
         "objectName": "PlayerSkin1"
       },
       {
-        "objectName": "Deer"
+        "objectName": "PlayerSkin3"
       },
       {
         "objectName": "PlayerSkin2"
@@ -8421,7 +8421,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
