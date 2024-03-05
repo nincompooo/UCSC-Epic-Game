@@ -5163,7 +5163,7 @@
         "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Hovered.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Transparent Button With White Blue Border_Hovered.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Transparent Button With White Blue Border_Hovered.png",
         "smoothed": true,
         "userAdded": false,
@@ -5176,7 +5176,7 @@
         "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Transparent Button With White Blue Border_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Transparent Button With White Blue Border_Idle.png",
         "smoothed": true,
         "userAdded": false,
@@ -5189,7 +5189,7 @@
         "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Pressed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Transparent Button With White Blue Border_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Transparent Button With White Blue Border_Pressed.png",
         "smoothed": true,
         "userAdded": false,
@@ -8184,6 +8184,104 @@
         "name": "Standing_Left59",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Center.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Center",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Angel wings21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Angel wings21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue_box.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/A Quest is Bequeffed.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/A Quest is Bequeffed.json\"}",
+        "name": "A Quest is Bequeffed",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8288,6 +8386,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
