@@ -23,8 +23,8 @@
     "name": "UCSC Epic Gamer Moment",
     "description": "Defeat evil",
     "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 960,
+    "windowWidth": 800,
+    "windowHeight": 600,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -7858,6 +7858,330 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left55.png\"}",
         "name": "Standing_Left55",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down114",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down115",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down116",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down117",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down118",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down119",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left102",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left103",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left104",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left107",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left108",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left109",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left110",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left111",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left112",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left113",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right112",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right113",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right114",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right115",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right116",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right117",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left57",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left58",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left59",
         "smoothed": true,
         "userAdded": true
       }
