@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.5690468466185646,
+    "zoomFactor": 1.5908997229453714,
     "windowMask": false
   },
   "objectsGroups": [
@@ -30,12 +30,6 @@
         },
         {
           "name": "Tree2"
-        },
-        {
-          "name": "House1"
-        },
-        {
-          "name": "House2"
         },
         {
           "name": "NPC"
@@ -57,13 +51,13 @@
       "name": "PlayerSkins",
       "objects": [
         {
+          "name": "PlayerSkin2"
+        },
+        {
           "name": "PlayerSkin0"
         },
         {
           "name": "PlayerSkin1"
-        },
-        {
-          "name": "PlayerSkin2"
         }
       ]
     }
@@ -2737,8 +2731,8 @@
       "name": "HitBox",
       "persistentUuid": "c36fbb38-1870-4014-b34b-38d4d118ea4d",
       "width": 14,
-      "x": 342,
-      "y": 189,
+      "x": 448,
+      "y": 176,
       "zOrder": 2121,
       "numberProperties": [],
       "stringProperties": [],
@@ -2752,14 +2746,7 @@
       "name": "PlayerSkin0",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "StepSound",
-          "type": "number",
-          "value": 1
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -6250,209 +6237,40 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": [
+      "behaviors": [
         {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice15",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 31.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice16",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 31.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice17",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 31.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice18",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 31.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice19",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 31.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 100,
+          "acceleration": 900000,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 900000,
+          "ignoreDefaultControls": false,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
         },
         {
-          "name": "Idle",
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "8 Directions"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Standing_Right",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.083333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -6819,13 +6637,579 @@
           ]
         },
         {
-          "name": "Down ",
+          "name": "Standing_Left",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left46",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left47",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left48",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left49",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left50",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left55",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left51",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left52",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left53",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Standing_Left54",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "deer male calciumtrice15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "deer male calciumtrice16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "deer male calciumtrice17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "deer male calciumtrice18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "deer male calciumtrice19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.083333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -7018,7 +7402,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.09,
+              "timeBetweenFrames": 0.075,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -7491,13 +7875,13 @@
         "objectName": "PlayerSkin0"
       },
       {
-        "objectName": "HitBox"
-      },
-      {
         "objectName": "PlayerSkin1"
       },
       {
         "objectName": "PlayerSkin2"
+      },
+      {
+        "objectName": "HitBox"
       },
       {
         "objectName": "NPC"
@@ -7595,6 +7979,16 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -7654,6 +8048,16 @@
                 "HitBox.Y()",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PlayerSkin1",
+                "=",
+                "1000"
+              ]
             }
           ]
         },
@@ -7691,7 +8095,7 @@
               "parameters": [
                 "PlayerSkin1",
                 "=",
-                "100"
+                "1000"
               ]
             }
           ]
@@ -7728,9 +8132,9 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "PlayerSkin2",
+                "PlayerSkin1",
                 "=",
-                "100"
+                "1000"
               ]
             }
           ]
@@ -7805,7 +8209,7 @@
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
-                "PlayerSkin0",
+                "PlayerSkins",
                 "TopDownMovement"
               ]
             },
@@ -7825,7 +8229,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "PlayerSkin0",
+                "PlayerSkins",
                 "Animation",
                 "=",
                 "\"Standing_Right\""
@@ -7842,7 +8246,7 @@
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
-                "PlayerSkin0",
+                "PlayerSkins",
                 "TopDownMovement"
               ]
             },
@@ -7862,7 +8266,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "PlayerSkin0",
+                "PlayerSkins",
                 "Animation",
                 "=",
                 "\"Standing_Left\""
@@ -7903,12 +8307,30 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "PlayerSkin0",
-                "TopDownMovement",
-                "\"Up\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                }
               ]
             },
             {
@@ -7940,12 +8362,30 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "PlayerSkin0",
-                "TopDownMovement",
-                "\"Up\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                }
               ]
             },
             {
@@ -8070,80 +8510,6 @@
                 "Animation",
                 "=",
                 "\"Down\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "PlayerSkin0",
-                "TopDownMovement",
-                "\"Down\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "LastRightPressed",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PlayerSkin0",
-                "Animation",
-                "=",
-                "\"Left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "PlayerSkin0",
-                "TopDownMovement",
-                "\"Down\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "LastRightPressed",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PlayerSkin0",
-                "Animation",
-                "=",
-                "\"Right\""
               ]
             }
           ]

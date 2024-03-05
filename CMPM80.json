@@ -7118,7 +7118,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice",
         "smoothed": true,
         "userAdded": true
@@ -7127,7 +7127,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice2.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice2",
         "smoothed": true,
         "userAdded": true
@@ -7136,7 +7136,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice3.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice3",
         "smoothed": true,
         "userAdded": true
@@ -7145,7 +7145,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice4.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice4",
         "smoothed": true,
         "userAdded": true
@@ -7154,7 +7154,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice5.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice5",
         "smoothed": true,
         "userAdded": true
@@ -7163,7 +7163,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice6.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice6",
         "smoothed": true,
         "userAdded": true
@@ -7172,7 +7172,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice7.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice7",
         "smoothed": true,
         "userAdded": true
@@ -7181,7 +7181,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice8.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice8",
         "smoothed": true,
         "userAdded": true
@@ -7190,7 +7190,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice9.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice9",
         "smoothed": true,
         "userAdded": true
@@ -7199,7 +7199,7 @@
         "alwaysLoaded": false,
         "file": "assets/.._.._.._Downloads_deer male calciumtrice10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._.._.._Downloads_deer male calciumtrice10.png\"}",
         "name": "..\\..\\..\\Downloads\\deer male calciumtrice10",
         "smoothed": true,
         "userAdded": true
@@ -7523,7 +7523,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings8.png\"}",
         "name": "Angel wings8",
         "smoothed": true,
         "userAdded": true
@@ -7532,7 +7532,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings9.png\"}",
         "name": "Angel wings9",
         "smoothed": true,
         "userAdded": true
@@ -7541,7 +7541,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings10.png\"}",
         "name": "Angel wings10",
         "smoothed": true,
         "userAdded": true
@@ -7550,7 +7550,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings11.png\"}",
         "name": "Angel wings11",
         "smoothed": true,
         "userAdded": true
@@ -7559,7 +7559,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings12.png\"}",
         "name": "Angel wings12",
         "smoothed": true,
         "userAdded": true
@@ -7568,7 +7568,7 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings13.png\"}",
         "name": "Angel wings13",
         "smoothed": true,
         "userAdded": true
@@ -7577,8 +7577,287 @@
         "alwaysLoaded": false,
         "file": "assets/Angel wings14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Angel wings14.png\"}",
         "name": "Angel wings14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down110",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down111",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down112",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down113",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right104.png\"}",
+        "name": "Right104",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right105.png\"}",
+        "name": "Right105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right106.png\"}",
+        "name": "Right106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right107.png\"}",
+        "name": "Right107",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right108.png\"}",
+        "name": "Right108",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right109.png\"}",
+        "name": "Right109",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right110.png\"}",
+        "name": "Right110",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right111.png\"}",
+        "name": "Right111",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left37.png\"}",
+        "name": "Standing_Left37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left38.png\"}",
+        "name": "Standing_Left38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left39.png\"}",
+        "name": "Standing_Left39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left40.png\"}",
+        "name": "Standing_Left40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left41.png\"}",
+        "name": "Standing_Left41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left42.png\"}",
+        "name": "Standing_Left42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left43.png\"}",
+        "name": "Standing_Left43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left44.png\"}",
+        "name": "Standing_Left44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left46.png\"}",
+        "name": "Standing_Left46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left47.png\"}",
+        "name": "Standing_Left47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left48.png\"}",
+        "name": "Standing_Left48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left49.png\"}",
+        "name": "Standing_Left49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left50.png\"}",
+        "name": "Standing_Left50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left51.png\"}",
+        "name": "Standing_Left51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left52.png\"}",
+        "name": "Standing_Left52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left53.png\"}",
+        "name": "Standing_Left53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left54.png\"}",
+        "name": "Standing_Left54",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing_Left55.png\"}",
+        "name": "Standing_Left55",
         "smoothed": true,
         "userAdded": true
       }

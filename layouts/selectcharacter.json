@@ -2412,18 +2412,7 @@
           "parameters": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Player",
-            "=",
-            "2"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2462,7 +2451,7 @@
           },
           "parameters": [
             "",
-            "\"Campus\""
+            "\"Quest\""
           ]
         }
       ]
