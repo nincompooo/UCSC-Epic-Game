@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.46331118245139835,
+    "zoomFactor": 0.49508400737488956,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 601,
+      "height": 801,
       "layer": "",
       "name": "Quest_Forest",
       "persistentUuid": "13080f8d-38e4-43ea-9e73-7f60c33008a4",
-      "width": 901,
-      "x": -93,
-      "y": 2,
+      "width": 1201,
+      "x": -122,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,13 +44,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 316,
+      "height": 422,
       "layer": "",
       "name": "God",
       "persistentUuid": "80dc69c9-3874-4008-b168-5e035a270b23",
-      "width": 316,
-      "x": -187,
-      "y": -271,
+      "width": 422,
+      "x": -248,
+      "y": -364,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -58,15 +58,48 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 86,
       "layer": "",
       "name": "Center",
       "persistentUuid": "6726adae-c040-4db0-8a91-6f4bf8832df0",
-      "width": 0,
-      "x": 197,
-      "y": 173,
+      "width": 86,
+      "x": 264,
+      "y": 227,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 202,
+      "layer": "",
+      "name": "DialogueBox",
+      "persistentUuid": "b0c3daa1-a8a1-4c09-9af9-76ede6a8368b",
+      "width": 969,
+      "x": 13,
+      "y": 569,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 5,
+      "height": 164,
+      "layer": "",
+      "name": "DialogueTXT",
+      "persistentUuid": "d953b4dd-c7ff-43ef-8792-fc89413e0d05",
+      "width": 985,
+      "x": 31,
+      "y": 587,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -77,74 +110,11 @@
       "depth": 1,
       "height": 151,
       "layer": "",
-      "name": "DialogueBox",
-      "persistentUuid": "b0c3daa1-a8a1-4c09-9af9-76ede6a8368b",
-      "width": 777,
-      "x": 9,
-      "y": 429,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 4,
-      "height": 123,
-      "layer": "",
-      "name": "DialogueTXT",
-      "persistentUuid": "d953b4dd-c7ff-43ef-8792-fc89413e0d05",
-      "width": 739,
-      "x": 23,
-      "y": 442,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 35,
-      "layer": "",
-      "name": "NameBox",
-      "persistentUuid": "46f9d4e8-6520-4d93-a183-06d00c64e3b8",
-      "width": 139,
-      "x": 10,
-      "y": 387,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 33,
-      "layer": "",
-      "name": "NameTXT",
-      "persistentUuid": "f83697e6-f3f6-4021-b1b2-132aa361ee2e",
-      "width": 114,
-      "x": 20,
-      "y": 389,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "E2",
       "persistentUuid": "bed0ab30-0e4e-4300-bfd3-28cc3b5baf39",
-      "width": 0,
-      "x": 708,
-      "y": 504,
+      "width": 135,
+      "x": 917,
+      "y": 690,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -933,7 +903,7 @@
           "parameters": [
             "God",
             "Center",
-            "100",
+            "150",
             ""
           ]
         }
@@ -1061,22 +1031,18 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueRunning"
           },
-          "parameters": [
-            "Button",
-            "",
-            "",
-            ""
-          ]
+          "parameters": []
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "KeyPressed"
           },
           "parameters": [
-            "",
-            "Left"
+            "E2",
+            "e"
           ]
         },
         {
@@ -1097,86 +1063,6 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Dialogue",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": []
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [

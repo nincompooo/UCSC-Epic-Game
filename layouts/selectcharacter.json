@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 112,
   "disableInputWhenNotFocused": true,
   "mangledName": "selectCharacter",
   "name": "selectCharacter",
-  "r": 209,
+  "r": 192,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 212,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210174,
+    "zoomFactor": 0.6455105703311483,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -72,21 +72,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "ButtonOk",
-      "persistentUuid": "cb1facc2-1146-4e31-81ef-097cee8f74d6",
-      "width": 0,
-      "x": 355,
-      "y": 437,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 142,
@@ -97,6 +82,37 @@
       "x": 198,
       "y": 236,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PurpleButtonWithShadow",
+      "persistentUuid": "c6fb67fd-9b10-4cf9-a280-c589c14f3e7f",
+      "width": 0,
+      "x": 346,
+      "y": 413,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 729,
+      "layer": "",
+      "name": "Back",
+      "persistentUuid": "bb76795c-9fd4-435f-ab73-9622b9c88b12",
+      "width": 619,
+      "x": 134,
+      "y": -14,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -432,17 +448,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Basic Charakter Spritesheet",
+          "name": "turkey_sprite_sheet_png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.2,
+              "timeBetweenFrames": 0.16666666666666666,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Basic Charakter Spritesheet5",
+                  "image": "turkey_sprite_sheet_png5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -458,27 +474,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 0,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 32,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 128
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 8,
-                        "y": 128
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Basic Charakter Spritesheet6",
+                  "image": "turkey_sprite_sheet_png6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -494,27 +510,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 0,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 32,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 128
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 8,
-                        "y": 128
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Basic Charakter Spritesheet7",
+                  "image": "turkey_sprite_sheet_png7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -530,27 +546,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 0,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 32,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 128
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 8,
-                        "y": 128
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Basic Charakter Spritesheet8",
+                  "image": "turkey_sprite_sheet_png8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -566,20 +582,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 0,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 0
+                        "x": 32,
+                        "y": 2
                       },
                       {
-                        "x": 120,
-                        "y": 128
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 8,
-                        "y": 128
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -589,89 +605,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-      "name": "ButtonOk",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 4,
-        "BottomPadding": 6,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Hovered.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Idle.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Choose",
-          "font": "Kenney Mini Square.ttf",
-          "textAlignment": "center",
-          "characterSize": 45,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Choose",
-            "font": "Kenney Mini Square.ttf",
-            "textAlignment": "center",
-            "characterSize": 45,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Pressed.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        }
-      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1008,7 +941,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice",
+                  "image": "Idle43",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1044,7 +977,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice2",
+                  "image": "Idle44",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1080,7 +1013,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice3",
+                  "image": "Idle45",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1116,7 +1049,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice4",
+                  "image": "Idle46",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1152,7 +1085,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice5",
+                  "image": "Idle47",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1188,7 +1121,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice6",
+                  "image": "Idle48",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1224,7 +1157,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice7",
+                  "image": "Idle49",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1260,7 +1193,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice8",
+                  "image": "Idle50",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1296,7 +1229,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice9",
+                  "image": "Idle51",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1332,7 +1265,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\..\\Downloads\\deer male calciumtrice10",
+                  "image": "Idle52",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1381,7 +1314,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice15",
+                  "image": "Right128",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1417,7 +1350,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice16",
+                  "image": "Right129",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1453,7 +1386,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice17",
+                  "image": "Right130",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1489,7 +1422,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice18",
+                  "image": "Right131",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1525,7 +1458,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deer male calciumtrice19",
+                  "image": "Right132",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2143,6 +2076,150 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "a48315b9a9c655af87118d7bb8f6be03b4dbb14e066387849b2d2d4c3600573c",
+      "name": "PurpleButtonWithShadow",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Purple Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Purple Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "BUTTON",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "BUTTON",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Purple Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Back",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2158,9 +2235,6 @@
         "objectName": "PlayerSkin1"
       },
       {
-        "objectName": "ButtonOk"
-      },
-      {
         "objectName": "PlayerSkin2"
       },
       {
@@ -2171,6 +2245,12 @@
       },
       {
         "objectName": "Stag"
+      },
+      {
+        "objectName": "PurpleButtonWithShadow"
+      },
+      {
+        "objectName": "Back"
       }
     ]
   },
@@ -2217,7 +2297,7 @@
           "parameters": [
             "PlayerSelectionFrame",
             "=",
-            "0"
+            "1"
           ]
         }
       ]
@@ -2398,31 +2478,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "ButtonOk",
+            "PurpleButtonWithShadow",
             "",
             "",
             ""
