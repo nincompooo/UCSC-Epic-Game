@@ -10626,6 +10626,34 @@
         "name": "sammy the slug2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Bleep_02.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Quick Metal Riff 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Rock/cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

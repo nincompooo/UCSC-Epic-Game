@@ -10300,8 +10300,32 @@
                 "sammy_the_slug",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
+                "",
+                "40",
+                ""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sammy source: https://www.reddit.com/r/UCSC/comments/v87ihx/fixed_sammy_slug/"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10323,6 +10347,18 @@
               },
               "parameters": [
                 "sammy_the_slug",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
+                "",
+                "40",
                 ""
               ]
             }
