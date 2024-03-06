@@ -9560,11 +9560,19 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Music source: "
+      "comment": "Music source: https://www.youtube.com/watch?v=sG_ovPJwLd0&list=PLdsGes2mFh92eHpOZVJQgoubb6rF0CcvU&index=21&ab_channel=Pix"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
         {
           "type": {
             "value": "BuiltinCommonInstructions::Once"
@@ -9586,6 +9594,16 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

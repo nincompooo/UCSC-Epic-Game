@@ -10585,6 +10585,20 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Run_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7c56639dc504356d1e2809e2c7732d3341cc4faf7d535d6acf9c126ababa0484_Run_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Grass/Run/7c56639dc504356d1e2809e2c7732d3341cc4faf7d535d6acf9c126ababa0484_Run_01.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -10669,6 +10683,12 @@
     {
       "folded": true,
       "name": "Player",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Footsteps",
       "type": "number",
       "value": 0
     }
