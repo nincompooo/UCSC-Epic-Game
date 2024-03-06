@@ -1063,6 +1063,43 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music source: https://www.youtube.com/watch?v=5a83feE_oTI&list=PLdsGes2mFh92eHpOZVJQgoubb6rF0CcvU&index=5&ab_channel=Pix"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "quest_music.mp3",
+            "yes",
+            "10",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

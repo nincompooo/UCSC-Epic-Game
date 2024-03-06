@@ -10555,6 +10555,36 @@
         "name": "NewSprite48",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "quest_music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "quest_music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "campus_music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "campus_music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "charac_select.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "charac_select.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

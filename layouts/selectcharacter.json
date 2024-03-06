@@ -32,8 +32,8 @@
       "name": "Choose_Your_Fighter",
       "persistentUuid": "9e2dc503-8759-4686-96e1-bebff9bf886b",
       "width": 0,
-      "x": 247,
-      "y": 110,
+      "x": 319,
+      "y": 189,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +48,8 @@
       "name": "PlayerSkin1",
       "persistentUuid": "1c077974-6ac8-4f85-a7c3-95c8ddc542ed",
       "width": 106,
-      "x": 395,
-      "y": 254,
+      "x": 454,
+      "y": 332,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,8 +63,8 @@
       "name": "PlayerSkin0",
       "persistentUuid": "b8f570d2-a226-47ce-a6ff-196739ce9e85",
       "width": 0,
-      "x": 561,
-      "y": 240,
+      "x": 616,
+      "y": 324,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +79,8 @@
       "name": "PlayerSkin2",
       "persistentUuid": "6bbf04be-b3ec-4fb2-989c-fa84803e1730",
       "width": 142,
-      "x": 198,
-      "y": 236,
+      "x": 237,
+      "y": 300,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,8 +94,8 @@
       "name": "PurpleButtonWithShadow",
       "persistentUuid": "c6fb67fd-9b10-4cf9-a280-c589c14f3e7f",
       "width": 0,
-      "x": 346,
-      "y": 413,
+      "x": 398,
+      "y": 517,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -105,13 +105,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 729,
+      "height": 678,
       "layer": "",
       "name": "Back",
       "persistentUuid": "bb76795c-9fd4-435f-ab73-9622b9c88b12",
-      "width": 619,
-      "x": 134,
-      "y": -14,
+      "width": 750,
+      "x": 133,
+      "y": 38,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -2118,7 +2118,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "BUTTON",
+          "string": "NEXT",
           "font": "CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -2141,7 +2141,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "BUTTON",
+            "text": "NEXT",
             "font": "CantoraOne-Regular.ttf",
             "textAlignment": "center",
             "characterSize": 40,
@@ -2511,6 +2511,31 @@
           "parameters": [
             "",
             "\"Quest\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "charac_select.mp3",
+            "yes",
+            "20",
+            ""
           ]
         }
       ]
