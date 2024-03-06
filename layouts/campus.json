@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.7669649888473941,
+    "zoomFactor": 1.5390040000682845,
     "windowMask": false
   },
   "objectsGroups": [
@@ -128,16 +128,16 @@
   ],
   "instances": [
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 47,
+      "height": 1017,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "0166d221-c908-425d-8c2d-85f710145da4",
       "width": 467,
-      "x": -495,
-      "y": 410,
+      "x": -691,
+      "y": -297,
       "zOrder": 2000,
       "numberProperties": [],
       "stringProperties": [],
@@ -149,7 +149,7 @@
       "depth": 1,
       "height": 124,
       "layer": "Dialogue",
-      "name": "Dialoguez",
+      "name": "FightDialogue",
       "persistentUuid": "caf097a8-67e7-4d4e-b372-23ef93794341",
       "width": 554,
       "x": 363,
@@ -186,21 +186,6 @@
       "x": 380,
       "y": 162,
       "zOrder": 600,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Transition",
-      "name": "Transition",
-      "persistentUuid": "f51be381-f77f-4bdb-a630-df379ad3f9f6",
-      "width": 0,
-      "x": 1309,
-      "y": 319,
-      "zOrder": 503,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -277,7 +262,7 @@
       "layer": "",
       "name": "asphalt",
       "persistentUuid": "5bd0702c-1e73-4c9e-955a-ebfc6cbc3b7b",
-      "width": 822,
+      "width": 1212,
       "x": -99,
       "y": -6,
       "zOrder": 0,
@@ -309,8 +294,8 @@
       "name": "HitBox",
       "persistentUuid": "7093b85a-ab52-4c3f-87bd-26383d62d916",
       "width": 40,
-      "x": 342,
-      "y": 494,
+      "x": 335,
+      "y": 495,
       "zOrder": 2118,
       "numberProperties": [],
       "stringProperties": [],
@@ -813,38 +798,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 3,
-      "height": 88,
-      "layer": "",
-      "name": "rock",
-      "persistentUuid": "8b08f466-60b7-4f33-869a-1b32e7b36052",
-      "width": 139,
-      "x": 290,
-      "y": -206,
-      "zOrder": 2129,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 4,
-      "height": 764,
-      "layer": "",
-      "name": "concrete",
-      "persistentUuid": "85b6a1a3-7cb3-4abc-ad38-09cca39f1e6b",
-      "width": 1778,
-      "x": -591,
-      "y": -766,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1106,7 +1059,7 @@
       "name": "street_sewer_lid",
       "persistentUuid": "f363611b-8fcc-4179-a0fc-9f665e62adcc",
       "width": 0,
-      "x": 353,
+      "x": 389,
       "y": 220,
       "zOrder": 2136,
       "numberProperties": [],
@@ -1139,21 +1092,6 @@
       "x": 87,
       "y": 90,
       "zOrder": 2138,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "traffic_cone",
-      "persistentUuid": "db9a9287-8305-4e96-85ee-48479546739f",
-      "width": 0,
-      "x": 636,
-      "y": 167,
-      "zOrder": 2139,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1205,44 +1143,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "traffic_cone",
-      "persistentUuid": "d3840082-0cb1-4332-b4e1-b52d6585eb1d",
-      "width": 0,
-      "x": 641,
-      "y": 198,
-      "zOrder": 2139,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "traffic_cone",
-      "persistentUuid": "c7d80552-7988-4557-a387-484ece73feef",
-      "width": 0,
-      "x": 644,
-      "y": 231,
-      "zOrder": 2139,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 383,
       "layer": "",
       "name": "concrete",
       "persistentUuid": "bb4472c2-88ef-4c56-9a10-f51054776d99",
-      "width": 78,
-      "x": -31,
+      "width": 652,
+      "x": -605,
       "y": -51,
       "zOrder": 2143,
       "numberProperties": [],
@@ -1295,7 +1203,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1303,14 +1211,14 @@
       "persistentUuid": "19345b5d-abdc-4c77-8e7a-3b46c8a3346e",
       "width": 0,
       "x": 16,
-      "y": 300,
+      "y": -1,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1318,14 +1226,14 @@
       "persistentUuid": "14751810-e41e-4f98-ad1e-f6fd8dec3644",
       "width": 0,
       "x": 16,
-      "y": 268,
+      "y": 31,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1333,14 +1241,14 @@
       "persistentUuid": "c1f330a2-e72d-4168-9ef0-6a4ee46bb880",
       "width": 0,
       "x": 16,
-      "y": 236,
+      "y": 63,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1348,14 +1256,14 @@
       "persistentUuid": "867d4e0a-a253-412d-b1a6-7cc05ea81e6c",
       "width": 0,
       "x": 16,
-      "y": 204,
+      "y": 95,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1363,14 +1271,14 @@
       "persistentUuid": "46098b76-c830-4ba0-9974-0ef4d92e30ef",
       "width": 0,
       "x": 16,
-      "y": 76,
+      "y": 223,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1378,14 +1286,14 @@
       "persistentUuid": "12ac5b20-557d-4d65-a870-9a37b9262bb6",
       "width": 0,
       "x": 16,
-      "y": 108,
+      "y": 191,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1393,14 +1301,14 @@
       "persistentUuid": "29df54aa-39bb-4da7-95c1-a130c1cf4b37",
       "width": 0,
       "x": 16,
-      "y": 140,
+      "y": 159,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1408,14 +1316,14 @@
       "persistentUuid": "f503d7e1-14db-4161-a633-1a434a77366f",
       "width": 0,
       "x": 16,
-      "y": 172,
+      "y": 127,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1423,14 +1331,14 @@
       "persistentUuid": "f39f71f9-68b9-4088-b2e4-e028b96d6425",
       "width": 0,
       "x": 16,
-      "y": 12,
+      "y": 287,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 180,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1438,7 +1346,7 @@
       "persistentUuid": "ae4881e4-8a2a-4646-8306-d0c75bc86fc9",
       "width": 0,
       "x": 16,
-      "y": 44,
+      "y": 255,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
@@ -1452,22 +1360,22 @@
       "name": "lightpost",
       "persistentUuid": "146b85e7-07b5-47ba-bc7a-00d5e6af3bea",
       "width": 0,
-      "x": -16,
-      "y": 70,
+      "x": -64,
+      "y": 66,
       "zOrder": 2146,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "46280210-3663-478e-8ae5-c3a9b3e3b2c5",
       "width": 0,
-      "x": 143,
+      "x": 810,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1475,14 +1383,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "3c0aab70-9c71-4975-a4c5-f40620f2c4fc",
       "width": 0,
-      "x": 111,
+      "x": 842,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1490,14 +1398,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "087a2481-f80f-490b-a2fd-b6b9e591493b",
       "width": 0,
-      "x": 79,
+      "x": 874,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1505,14 +1413,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "ad59e660-75c1-4093-984a-13e62672abff",
       "width": 0,
-      "x": 47,
+      "x": 906,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1520,14 +1428,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "8bcc91a2-65ec-465b-80ae-6ad70d67c888",
       "width": 0,
-      "x": 175,
+      "x": 778,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1535,14 +1443,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "7a1e056c-8243-40d4-8425-cc3add0804b6",
       "width": 0,
-      "x": 206,
+      "x": 747,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1550,14 +1458,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "dd1fc694-ac54-4d41-9881-1a3ea1f5465e",
       "width": 0,
-      "x": 238,
+      "x": 715,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1565,14 +1473,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "494390e8-41e3-4ce8-8759-e4b4a930ee7b",
       "width": 0,
-      "x": 270,
+      "x": 683,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1580,14 +1488,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "aa1e7b7a-9e0d-4d16-8315-5595872eb46f",
       "width": 0,
-      "x": 302,
+      "x": 651,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1595,14 +1503,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "af296346-c33d-4447-87bb-8d1b02c1fcab",
       "width": 0,
-      "x": 334,
+      "x": 619,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1610,14 +1518,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "d0b32285-3d7b-49ee-ab63-587c47e08634",
       "width": 0,
-      "x": 366,
+      "x": 587,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1625,14 +1533,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "7cfbd193-fafd-4a7a-8487-831332f0958a",
       "width": 0,
-      "x": 398,
+      "x": 555,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1640,14 +1548,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "4463e9b0-9c95-42a7-8657-f798b76c0041",
       "width": 0,
-      "x": 430,
+      "x": 523,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1655,14 +1563,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "d4183a27-16b4-4c8f-b330-a437c2f1a8cb",
       "width": 0,
-      "x": 462,
+      "x": 491,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1670,14 +1578,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "1ab43e90-f971-4d93-9b8b-558bc08fa85a",
       "width": 0,
-      "x": 494,
+      "x": 459,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1685,14 +1593,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "65e9ede1-fd08-4e5e-9f8a-dad15177e99f",
       "width": 0,
-      "x": 526,
+      "x": 427,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1700,14 +1608,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "7febfec5-68a3-4be4-823b-e32dbf3bb49e",
       "width": 0,
-      "x": 558,
+      "x": 395,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1715,14 +1623,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "efba4e8f-30dc-4c76-b1d5-b41b2ad1d9e3",
       "width": 0,
-      "x": 590,
+      "x": 363,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1730,14 +1638,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "18ad175e-d641-4a61-b338-9c592e428244",
       "width": 0,
-      "x": 622,
+      "x": 331,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1745,14 +1653,14 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "concrete_left",
       "persistentUuid": "5bcb75ff-436b-4f00-80d2-bddebe1f6595",
       "width": 0,
-      "x": 654,
+      "x": 299,
       "y": -33,
       "zOrder": 2145,
       "numberProperties": [],
@@ -1827,8 +1735,8 @@
       "name": "wooden_barrier",
       "persistentUuid": "9da40a21-bafc-4414-8e85-90770314092c",
       "width": 0,
-      "x": 606,
-      "y": -38,
+      "x": 604,
+      "y": -49,
       "zOrder": 2147,
       "numberProperties": [],
       "stringProperties": [],
@@ -2349,13 +2257,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 59,
+      "height": 147,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "05a0602b-3060-4cc9-9e85-1072874a6c1c",
-      "width": 131,
-      "x": -20,
-      "y": 508,
+      "width": 514,
+      "x": -403,
+      "y": 446,
       "zOrder": 2154,
       "numberProperties": [],
       "stringProperties": [],
@@ -2365,13 +2273,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 59,
+      "height": 250,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "bf945eab-1a2a-42b1-a32f-46b7e8fbe34f",
-      "width": 131,
-      "x": 633,
-      "y": 505,
+      "width": 827,
+      "x": 560,
+      "y": 324,
       "zOrder": 2154,
       "numberProperties": [],
       "stringProperties": [],
@@ -2517,57 +2425,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "054d928e-5327-4d59-b446-e23e1bf68c57",
-      "width": 0,
-      "x": 1043,
-      "y": -413,
-      "zOrder": 2165,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "83c0ccc0-5002-43f7-9599-5f9bf4bae57a",
-      "width": 0,
-      "x": 1046,
-      "y": -208,
-      "zOrder": 2166,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "Tree3",
       "persistentUuid": "04aae585-20f4-49ac-a7e7-0d876e405327",
       "width": 0,
       "x": -214,
       "y": -66,
       "zOrder": 2167,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree3",
-      "persistentUuid": "fbce5c51-f372-452d-8942-b1fb78283a34",
-      "width": 0,
-      "x": 884,
-      "y": -37,
-      "zOrder": 2168,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2611,8 +2474,8 @@
       "name": "sammy_the_slug",
       "persistentUuid": "edcd59cf-5a2c-4fed-8660-75367e98d86f",
       "width": 72,
-      "x": 173,
-      "y": -444,
+      "x": 321,
+      "y": -453,
       "zOrder": 2171,
       "numberProperties": [],
       "stringProperties": [],
@@ -2629,21 +2492,6 @@
       "x": 86,
       "y": 23,
       "zOrder": 2172,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Dialoguez",
-      "persistentUuid": "ed1c4c9e-89b4-47aa-840a-1a39de75d6ec",
-      "width": 0,
-      "x": 258,
-      "y": 305,
-      "zOrder": 2173,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2690,6 +2538,1351 @@
       "x": 283,
       "y": 456,
       "zOrder": 2176,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "7bd2b1fd-64a2-47b5-833c-2128e666d34c",
+      "width": 0,
+      "x": 270,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "ec9786f2-4051-476e-9f72-5712404a893f",
+      "width": 0,
+      "x": 238,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "c6890641-3cd7-4c51-8f48-15131dd7698a",
+      "width": 0,
+      "x": 175,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "538b4c97-a891-4cfe-9e77-7fd860b49f33",
+      "width": 0,
+      "x": 206,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "ee26a2c7-a5f2-4ccf-bc6a-5828a59eacbd",
+      "width": 0,
+      "x": 143,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "4d34bdaa-1733-4dd5-9982-f4f9c9341a65",
+      "width": 0,
+      "x": 111,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "73fec00e-7c3e-46be-a069-cf7ade93e5a1",
+      "width": 0,
+      "x": 79,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "ae2fb4ad-ec4b-4a41-a69d-aaf1f2ed3d25",
+      "width": 0,
+      "x": 47,
+      "y": -33,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "wooden_barrier",
+      "persistentUuid": "3ce7d6de-2195-43f1-9da8-2636d4d02af0",
+      "width": 0,
+      "x": 791,
+      "y": -47,
+      "zOrder": 2147,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 400,
+      "layer": "",
+      "name": "concrete",
+      "persistentUuid": "d81b9fd0-d420-4004-9968-4133fea3ceff",
+      "width": 479,
+      "x": 938,
+      "y": -5,
+      "zOrder": 2143,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "133e55f8-23f8-409c-a1bc-72dd6a109142",
+      "width": 0,
+      "x": 938,
+      "y": 287,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "5b059e23-cc57-4ab0-bc04-83d7106863ba",
+      "width": 0,
+      "x": 938,
+      "y": 255,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "b1c534e5-c4a2-4a13-9a27-a63d91749af6",
+      "width": 0,
+      "x": 938,
+      "y": 223,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "d29eae84-16a3-4dfe-a02d-645465afbc65",
+      "width": 0,
+      "x": 938,
+      "y": 191,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "947a8f12-d4c9-449a-8120-eae6dfab9e3f",
+      "width": 0,
+      "x": 938,
+      "y": 159,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "e143725c-f0c3-4c03-b8c4-3d1a1c69ae14",
+      "width": 0,
+      "x": 938,
+      "y": 127,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "35718a52-4b91-48ea-94f9-396ca92f0db7",
+      "width": 0,
+      "x": 938,
+      "y": 95,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "07371955-3522-44f4-98c9-cd1711887f33",
+      "width": 0,
+      "x": 938,
+      "y": 63,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "ae6eb5ba-72c0-4453-bc68-d7b129604b2a",
+      "width": 0,
+      "x": 938,
+      "y": 31,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "ea89274d-1e5d-4398-b36d-64ef24a51ccf",
+      "width": 0,
+      "x": 938,
+      "y": -1,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_corner",
+      "persistentUuid": "6b1b9b36-782d-401f-a3b1-a3254b711340",
+      "width": 0,
+      "x": 938,
+      "y": -33,
+      "zOrder": 2177,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "75414e0c-4a00-4478-bddc-53c8da604c70",
+      "width": 0,
+      "x": 938,
+      "y": 319,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_left",
+      "persistentUuid": "64291182-148f-4729-97f0-4456d3dbc3d8",
+      "width": 0,
+      "x": 938,
+      "y": 351,
+      "zOrder": 2145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "concrete_corner",
+      "persistentUuid": "fa8185e8-0cac-4be9-8368-fa2df525bc7b",
+      "width": 0,
+      "x": 16,
+      "y": -33,
+      "zOrder": 2177,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lightpost",
+      "persistentUuid": "2e4eda25-c747-4965-a87c-6b5387554ed7",
+      "width": 0,
+      "x": -64,
+      "y": -73,
+      "zOrder": 2146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lightpost_other",
+      "persistentUuid": "d8cbe06d-2420-4e7e-886d-b741d4cbc741",
+      "width": 0,
+      "x": 993,
+      "y": -59,
+      "zOrder": 2178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lightpost_other",
+      "persistentUuid": "95b5d264-1345-48a4-a917-f93ba0add1da",
+      "width": 0,
+      "x": 1002,
+      "y": 92,
+      "zOrder": 2178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lightpost_other",
+      "persistentUuid": "3fa9d247-a66d-44e0-95b4-335e03829840",
+      "width": 0,
+      "x": 998,
+      "y": -212,
+      "zOrder": 2178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "b4a764f0-b455-4014-b86f-dea30187cc32",
+      "width": 14,
+      "x": 1050,
+      "y": -214,
+      "zOrder": 2179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "54d094c0-a63f-460c-8dcf-daf6e2ad481f",
+      "width": 14,
+      "x": 1045,
+      "y": -60,
+      "zOrder": 2179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "3a3a2f54-2b1f-4215-8e69-c2c3c80ca7d7",
+      "width": 14,
+      "x": 1054,
+      "y": 90,
+      "zOrder": 2179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "c72f63e4-329e-4722-ba22-c5159c206edb",
+      "width": 54,
+      "x": 1001,
+      "y": 95,
+      "zOrder": 2180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "c600fa61-985c-4d89-94d8-7ee91dd7f2f5",
+      "width": 54,
+      "x": 991,
+      "y": -58,
+      "zOrder": 2180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "f7802251-038f-4450-8986-4a822f3f6405",
+      "width": 54,
+      "x": 999,
+      "y": -211,
+      "zOrder": 2180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "1b60ac06-467b-4e20-a044-eef87fb61499",
+      "width": 0,
+      "x": 1116,
+      "y": 140,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "37a9a536-4201-4df6-bff0-5905e5f43eef",
+      "width": 0,
+      "x": 1117,
+      "y": 243,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "b6a2f8aa-fadb-4065-a05d-83fd114c4297",
+      "width": 0,
+      "x": 1116,
+      "y": 172,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "fc672e7c-707a-4661-9b77-7cd6276e0172",
+      "width": 0,
+      "x": 1116,
+      "y": 204,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "9b01bcca-1980-458f-aa6b-fb2fcd6e9e96",
+      "width": 0,
+      "x": 1116,
+      "y": 236,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "15cd62a6-f58d-45fa-9042-bf201d1ba65e",
+      "width": 0,
+      "x": 1116,
+      "y": 108,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "3c6708ff-9c71-4ece-ba50-d04bd0bc51c9",
+      "width": 0,
+      "x": 1116,
+      "y": 76,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "e054c05d-94f0-40b8-a171-1799909cb16e",
+      "width": 0,
+      "x": 1116,
+      "y": 44,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "003d35a3-53c7-47d5-a724-6a8b56de0991",
+      "width": 0,
+      "x": 1116,
+      "y": 12,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "ea723e5b-a04d-474d-89df-801c90a90216",
+      "width": 0,
+      "x": 1116,
+      "y": 300,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "11e01b7f-d73a-4a05-a14e-720252e6fe8b",
+      "width": 0,
+      "x": 1116,
+      "y": 268,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "bbf2fa8f-bc1d-4624-ae0c-e84459e5f72e",
+      "width": 0,
+      "x": 1116,
+      "y": 332,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "434edcb5-4fb5-4f7a-a8c2-17caf8d5ac90",
+      "width": 0,
+      "x": 1116,
+      "y": -180,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "64d12635-929b-4e5e-82e2-7371f2887b11",
+      "width": 0,
+      "x": 1116,
+      "y": -148,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "2fd3253e-2b63-40af-9f06-668dc7ac569e",
+      "width": 0,
+      "x": 1116,
+      "y": -116,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "a217b16a-f591-450c-a2e9-0850b4dffcf0",
+      "width": 0,
+      "x": 1116,
+      "y": -84,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "d9200656-1f2e-4659-9383-0973bcd23d10",
+      "width": 0,
+      "x": 1116,
+      "y": -20,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "1b9c2ca7-9da2-45a8-932c-d3e6f2a35d1a",
+      "width": 0,
+      "x": 1116,
+      "y": -52,
+      "zOrder": 2181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom_left_corner",
+      "persistentUuid": "c62b109c-9042-4e1b-a7df-a8d7a11db44e",
+      "width": 0,
+      "x": 1116,
+      "y": 363,
+      "zOrder": 2182,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom",
+      "persistentUuid": "f25c4452-44d4-47dc-9e0e-8c231b67640f",
+      "width": 0,
+      "x": 1147,
+      "y": 363,
+      "zOrder": 2183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom",
+      "persistentUuid": "c3bd5832-673f-4893-9958-4650f91dba4b",
+      "width": 0,
+      "x": 1179,
+      "y": 363,
+      "zOrder": 2183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom",
+      "persistentUuid": "ff53cdae-4e87-404d-a793-a7b07703fa4a",
+      "width": 0,
+      "x": 1210,
+      "y": 363,
+      "zOrder": 2183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom",
+      "persistentUuid": "7fa1ac6a-95ed-43b2-8a48-b72558ae8378",
+      "width": 0,
+      "x": 1242,
+      "y": 363,
+      "zOrder": 2183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_bottom",
+      "persistentUuid": "33467f99-d7d5-4f2b-b326-3aa6ba702f01",
+      "width": 0,
+      "x": 1274,
+      "y": 363,
+      "zOrder": 2183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 543,
+      "layer": "",
+      "name": "just_dirt",
+      "persistentUuid": "d5e19e68-8566-4acc-b0b8-0912716dc87b",
+      "width": 159,
+      "x": 1148,
+      "y": -180,
+      "zOrder": 2184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "top_corner_left",
+      "persistentUuid": "bf259895-7f56-4907-8d7f-9ef565d7d9cc",
+      "width": 0,
+      "x": 1116,
+      "y": -212,
+      "zOrder": 2185,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_top",
+      "persistentUuid": "3d9c24b6-84b5-4132-995c-8ca8ed40e653",
+      "width": 0,
+      "x": 1147,
+      "y": -212,
+      "zOrder": 2186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_top",
+      "persistentUuid": "51f72afd-0d96-4ddd-88d3-1e2283933696",
+      "width": 0,
+      "x": 1179,
+      "y": -212,
+      "zOrder": 2186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_top",
+      "persistentUuid": "ffa802e0-9321-4650-b0fe-d2101112e843",
+      "width": 0,
+      "x": 1211,
+      "y": -212,
+      "zOrder": 2186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_top",
+      "persistentUuid": "430ea51f-5104-491f-9f56-82cb6eed7eee",
+      "width": 0,
+      "x": 1243,
+      "y": -212,
+      "zOrder": 2186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dirt_top",
+      "persistentUuid": "68a3c1d4-3323-46e5-b8a5-411a91fbffbd",
+      "width": 0,
+      "x": 1275,
+      "y": -212,
+      "zOrder": 2186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "72d9a3c7-484c-4c4b-855c-6031445e524a",
+      "width": 0,
+      "x": 1169,
+      "y": -205,
+      "zOrder": 2187,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "bc0e9d1f-d54f-460f-ae5d-8aad759fd242",
+      "width": 0,
+      "x": 1230,
+      "y": -132,
+      "zOrder": 2188,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "bc3c6976-c66f-449f-99da-7f643ddf272a",
+      "width": 0,
+      "x": 1147,
+      "y": -114,
+      "zOrder": 2189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "1f3c10a9-00c8-4112-be7d-b02b0b215077",
+      "width": 0,
+      "x": 1235,
+      "y": -39,
+      "zOrder": 2190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bush1",
+      "persistentUuid": "127a46d4-adbd-4164-aa90-72b666c77e2a",
+      "width": 0,
+      "x": 1141,
+      "y": -140,
+      "zOrder": 2191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "ab326ad3-d60a-4c77-8bec-3a860d989878",
+      "width": 0,
+      "x": 1153,
+      "y": -17,
+      "zOrder": 2192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bush1",
+      "persistentUuid": "2d111e00-de37-45b5-9e62-a4a365ea6347",
+      "width": 0,
+      "x": 1139,
+      "y": -28,
+      "zOrder": 2193,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bush1",
+      "persistentUuid": "6950d039-922d-4eb3-905a-7f823bdca0b1",
+      "width": 0,
+      "x": 1154,
+      "y": 89,
+      "zOrder": 2194,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "378c0ffa-6dde-424b-9e29-91fb96736f5b",
+      "width": 0,
+      "x": 1172,
+      "y": 61,
+      "zOrder": 2195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "7313e7b5-c816-4fe5-b6c2-0fbf717c19a2",
+      "width": 0,
+      "x": 1236,
+      "y": 135,
+      "zOrder": 2196,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "02000dfd-6d68-44d9-9afc-8ec78942c960",
+      "width": 0,
+      "x": 1150,
+      "y": 149,
+      "zOrder": 2197,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "a458fb37-ae9e-454f-a435-49c95fb12a19",
+      "width": 0,
+      "x": 1211,
+      "y": 221,
+      "zOrder": 2198,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "b0a77890-bbd2-438e-a102-f1c3e76ac379",
+      "width": 0,
+      "x": 1152,
+      "y": 265,
+      "zOrder": 2198,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bush1",
+      "persistentUuid": "325bbf41-1aeb-4d9d-96f6-af3489081d68",
+      "width": 0,
+      "x": 1248,
+      "y": 339,
+      "zOrder": 2199,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bush1",
+      "persistentUuid": "21327cd1-0c7f-4cfa-9c76-173c6ad138dd",
+      "width": 0,
+      "x": 1136,
+      "y": 249,
+      "zOrder": 2200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 65,
+      "layer": "Collision",
+      "name": "CollisionDetect",
+      "persistentUuid": "7d9cf73b-ea0c-468d-943f-5b1bd6dd969c",
+      "width": 92,
+      "x": 505,
+      "y": 336,
+      "zOrder": 2201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "street_sewer_lid",
+      "persistentUuid": "bcfba4a7-4cb0-4664-bb75-4d9ebf45d197",
+      "width": 0,
+      "x": 838,
+      "y": 221,
+      "zOrder": 2136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "street_sewer_lid",
+      "persistentUuid": "2a26e1db-fd2c-45d5-b703-91f25ee04f5c",
+      "width": 0,
+      "x": 832,
+      "y": 82,
+      "zOrder": 2136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "smaller_rock",
+      "persistentUuid": "97584ccb-9cb6-4519-93d6-9d6c423030d3",
+      "width": 0,
+      "x": 1130,
+      "y": -6,
+      "zOrder": 2202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "smaller_rock",
+      "persistentUuid": "e0f98112-86ca-486f-b2db-a2a8a99295be",
+      "width": 0,
+      "x": 1138,
+      "y": 7,
+      "zOrder": 2203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "smaller_rock",
+      "persistentUuid": "010f5037-c76b-4530-aa93-aa1bbb11fe88",
+      "width": 0,
+      "x": 1127,
+      "y": -168,
+      "zOrder": 2204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 947,
+      "layer": "",
+      "name": "concrete",
+      "persistentUuid": "27977a9d-b202-4ec7-8fec-ccb260892fba",
+      "width": 2138,
+      "x": -706,
+      "y": -970,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "rock",
+      "persistentUuid": "e024481e-d45a-4ade-88a9-f619d2412907",
+      "width": 0,
+      "x": 332,
+      "y": -278,
+      "zOrder": 2205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "168dc48b-2c75-4474-a5c7-01659ab47156",
+      "width": 0,
+      "x": 343,
+      "y": 366,
+      "zOrder": 2206,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4399,9 +5592,16 @@
     },
     {
       "assetStoreId": "",
-      "name": "Dialoguez",
+      "name": "FightDialogue",
       "type": "BitmapText::BitmapTextObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "event",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -7820,7 +9020,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rock2",
+                  "image": "rock3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7840,16 +9040,16 @@
                         "y": 0
                       },
                       {
-                        "x": 52,
+                        "x": 104,
                         "y": 0
                       },
                       {
-                        "x": 52,
-                        "y": 33
+                        "x": 104,
+                        "y": 66
                       },
                       {
                         "x": 0,
-                        "y": 33
+                        "y": 66
                       }
                     ]
                   ]
@@ -9372,6 +10572,616 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "concrete_corner",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite49",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lightpost_other",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite51",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 72,
+                        "y": 0
+                      },
+                      {
+                        "x": 72,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dirt",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite52",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dirt_bottom_left_corner",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite53",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dirt_bottom",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite54",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "just_dirt",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite55",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "top_corner_left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite56",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dirt_top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite57",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "smaller_rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite58",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite60",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 22,
+                        "y": 0
+                      },
+                      {
+                        "x": 22,
+                        "y": 36
+                      },
+                      {
+                        "x": 0,
+                        "y": 36
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -9470,6 +11280,12 @@
             "objectName": "lightpost"
           },
           {
+            "objectName": "lightpost_other"
+          },
+          {
+            "objectName": "smaller_rock"
+          },
+          {
             "objectName": "rock"
           }
         ]
@@ -9478,7 +11294,7 @@
         "folderName": "UI",
         "children": [
           {
-            "objectName": "Dialoguez"
+            "objectName": "FightDialogue"
           },
           {
             "objectName": "Dialoguez2"
@@ -9560,6 +11376,9 @@
             "objectName": "asphalt"
           },
           {
+            "objectName": "arrow"
+          },
+          {
             "objectName": "street_crossing"
           },
           {
@@ -9570,6 +11389,27 @@
           },
           {
             "objectName": "concrete_left"
+          },
+          {
+            "objectName": "concrete_corner"
+          },
+          {
+            "objectName": "just_dirt"
+          },
+          {
+            "objectName": "dirt"
+          },
+          {
+            "objectName": "dirt_bottom"
+          },
+          {
+            "objectName": "top_corner_left"
+          },
+          {
+            "objectName": "dirt_top"
+          },
+          {
+            "objectName": "dirt_bottom_left_corner"
           }
         ]
       }
@@ -9684,6 +11524,14 @@
           },
           "parameters": [
             "slimepickup"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FightDialogue"
           ]
         }
       ],
@@ -10300,11 +12148,6 @@
       "actions": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -10368,6 +12211,64 @@
               "parameters": [
                 "heart",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "sammy_the_slug",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "FightDialogue",
+                "event",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "FightDialogue",
+                "FightDialogue",
+                "PlayerSkins.X()-60",
+                "PlayerSkins.Y()+10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "FightDialogue",
+                "event",
+                "-",
+                "1"
               ]
             }
           ]
@@ -10645,11 +12546,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
