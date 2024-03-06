@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.6080707824001577,
+    "zoomFactor": 1.4402359043061008,
     "windowMask": false
   },
   "objectsGroups": [
@@ -111,6 +111,9 @@
         },
         {
           "name": "trashcan"
+        },
+        {
+          "name": "Enemy"
         }
       ]
     }
@@ -146,7 +149,7 @@
       "depth": 1,
       "height": 124,
       "layer": "Dialogue",
-      "name": "Dialogue",
+      "name": "Dialoguez",
       "persistentUuid": "caf097a8-67e7-4d4e-b372-23ef93794341",
       "width": 554,
       "x": 363,
@@ -270,7 +273,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 619,
+      "height": 659,
       "layer": "",
       "name": "asphalt",
       "persistentUuid": "5bd0702c-1e73-4c9e-955a-ebfc6cbc3b7b",
@@ -306,7 +309,7 @@
       "name": "HitBox",
       "persistentUuid": "7093b85a-ab52-4c3f-87bd-26383d62d916",
       "width": 40,
-      "x": 334,
+      "x": 342,
       "y": 494,
       "zOrder": 2118,
       "numberProperties": [],
@@ -827,14 +830,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 204,
+      "depth": 4,
+      "height": 764,
       "layer": "",
       "name": "concrete",
       "persistentUuid": "85b6a1a3-7cb3-4abc-ad38-09cca39f1e6b",
-      "width": 588,
-      "x": 104,
-      "y": -219,
+      "width": 1778,
+      "x": -591,
+      "y": -766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -2335,8 +2338,8 @@
       "name": "CollisionDetect",
       "persistentUuid": "e4ecdf81-03ad-4cc3-9218-dcec48b7d152",
       "width": 844,
-      "x": -122,
-      "y": 560,
+      "x": -125,
+      "y": 571,
       "zOrder": 2153,
       "numberProperties": [],
       "stringProperties": [],
@@ -2373,6 +2376,277 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "8ce7d758-7140-4dba-8c5b-c6925c3e47ea",
+      "width": 0,
+      "x": -381,
+      "y": -127,
+      "zOrder": 2156,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "91897796-8252-4139-93c9-032510e0a695",
+      "width": 0,
+      "x": -384,
+      "y": -294,
+      "zOrder": 2157,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "5381e72f-2d5d-4ae2-ad87-ef710b47b074",
+      "width": 0,
+      "x": -332,
+      "y": -494,
+      "zOrder": 2158,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "8c34969b-d211-4b75-9616-301ec89dc4d6",
+      "width": 0,
+      "x": -225,
+      "y": -644,
+      "zOrder": 2159,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "ca188dc5-7fa9-404b-a797-40dffe37b762",
+      "width": 0,
+      "x": -58,
+      "y": -742,
+      "zOrder": 2160,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "a629a212-ca63-4d9b-ac45-a8536302cbc6",
+      "width": 0,
+      "x": 185,
+      "y": -748,
+      "zOrder": 2161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "7cf97a67-121b-466d-8e40-3578932500cb",
+      "width": 0,
+      "x": 422,
+      "y": -768,
+      "zOrder": 2162,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "03a44203-fc9a-480f-b57d-5a15c839be32",
+      "width": 0,
+      "x": 694,
+      "y": -711,
+      "zOrder": 2163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "c4419a4c-4ca8-452b-a3c6-6dceda67442c",
+      "width": 0,
+      "x": 847,
+      "y": -557,
+      "zOrder": 2164,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "054d928e-5327-4d59-b446-e23e1bf68c57",
+      "width": 0,
+      "x": 1043,
+      "y": -413,
+      "zOrder": 2165,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "83c0ccc0-5002-43f7-9599-5f9bf4bae57a",
+      "width": 0,
+      "x": 1046,
+      "y": -208,
+      "zOrder": 2166,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "04aae585-20f4-49ac-a7e7-0d876e405327",
+      "width": 0,
+      "x": -214,
+      "y": -66,
+      "zOrder": 2167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree3",
+      "persistentUuid": "fbce5c51-f372-452d-8942-b1fb78283a34",
+      "width": 0,
+      "x": 884,
+      "y": -37,
+      "zOrder": 2168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Health",
+      "persistentUuid": "1ff48a06-b5e7-4fa4-b40f-2f428039883e",
+      "width": 0,
+      "x": 88,
+      "y": 26,
+      "zOrder": 2169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "heart",
+      "persistentUuid": "dad6a3e4-97fc-4ca6-bbcc-aed4eac87dbb",
+      "width": 0,
+      "x": 24,
+      "y": 27,
+      "zOrder": 2170,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "layer": "",
+      "name": "sammy_the_slug",
+      "persistentUuid": "edcd59cf-5a2c-4fed-8660-75367e98d86f",
+      "width": 72,
+      "x": 173,
+      "y": -444,
+      "zOrder": 2171,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Health_Bar",
+      "persistentUuid": "4ac203c7-bec9-4b9e-86b5-48083c0e5798",
+      "width": 0,
+      "x": 86,
+      "y": 23,
+      "zOrder": 2172,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dialoguez",
+      "persistentUuid": "ed1c4c9e-89b4-47aa-840a-1a39de75d6ec",
+      "width": 0,
+      "x": 241,
+      "y": 305,
+      "zOrder": 2173,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2385,6 +2659,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 16,
+          "CurrentHealth": 0,
+          "MaxHealth": 16,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "HealToBeApplied": 0
+        },
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
@@ -4051,7 +4353,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Dialogue",
+      "name": "Dialoguez",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
@@ -4065,9 +4367,9 @@
         }
       ],
       "content": {
-        "text": "Do you want to buy some food from my shop",
+        "text": "Press Space Bar to Annihlate",
         "opacity": 255,
-        "scale": 2,
+        "scale": 0.6,
         "fontSize": 20,
         "tint": "255;255;255",
         "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -4696,13 +4998,13 @@
     },
     {
       "assetStoreId": "7dcab69a6f649e686d80ac37d60d80e382638df4e2306f422dab47e3d266044d",
-      "name": "Health",
+      "name": "Health_Bar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "InitialValue": 10,
+        "InitialValue": 16,
         "MaxValue": 16,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
@@ -4781,7 +5083,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "heart",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4947,14 +5249,7 @@
       "name": "PlayerSkin1",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "StepSound",
-          "type": "number",
-          "value": 1
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [
         {
@@ -5885,6 +6180,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 16,
+          "CurrentHealth": 0,
+          "MaxHealth": 16,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "HealToBeApplied": 0
+        },
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
@@ -8721,6 +9044,159 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sammy_the_slug",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "sammy the slug",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sammy the slug2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 118,
+                        "y": 0
+                      },
+                      {
+                        "x": 118,
+                        "y": 89
+                      },
+                      {
+                        "x": 0,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "StepSound",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 100,
+          "acceleration": 900000,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 900000,
+          "ignoreDefaultControls": false,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "8 Directions"
+        }
+      ],
+      "animations": [
+        {
+          "name": "HitBox",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "HitBox2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8810,6 +9286,12 @@
             "objectName": "traffic_cone"
           },
           {
+            "objectName": "Enemy"
+          },
+          {
+            "objectName": "sammy_the_slug"
+          },
+          {
             "objectName": "lightpost"
           },
           {
@@ -8821,13 +9303,16 @@
         "folderName": "UI",
         "children": [
           {
-            "objectName": "Dialogue"
+            "objectName": "Dialoguez"
           },
           {
             "objectName": "E"
           },
           {
             "objectName": "E2"
+          },
+          {
+            "objectName": "score_text"
           },
           {
             "objectName": "YesButton"
@@ -8847,7 +9332,7 @@
         "folderName": "player",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "heart"
           },
           {
             "objectName": "NPC"
@@ -8862,15 +9347,12 @@
             "objectName": "PlayerSkin1"
           },
           {
-            "objectName": "Health"
+            "objectName": "Health_Bar"
           },
           {
             "objectName": "PlayerSkin0"
           }
         ]
-      },
-      {
-        "objectName": "score_text"
       },
       {
         "folderName": "street",
@@ -8898,14 +9380,14 @@
           },
           {
             "objectName": "street_line_left"
+          },
+          {
+            "objectName": "concrete"
+          },
+          {
+            "objectName": "concrete_left"
           }
         ]
-      },
-      {
-        "objectName": "concrete"
-      },
-      {
-        "objectName": "concrete_left"
       }
     ]
   },
@@ -8986,6 +9468,22 @@
           },
           "parameters": [
             "HitBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Health_Bar"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "heart"
           ]
         }
       ],
@@ -9152,16 +9650,6 @@
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "HitBox",
-            "CollisionObject",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "ChangePlan"
           },
           "parameters": [
@@ -9181,6 +9669,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "HitBox",
+            "CollisionObject",
+            ""
+          ]
         }
       ]
     },
@@ -9189,6 +9687,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9616,6 +10115,221 @@
         "textR": 0
       },
       "comment": "Background/Cars/Trees/City Misc Source: https://nyknck.itch.io/citypackpixelart"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Enemey",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "sammy_the_slug",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                "PlayerSkins",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Health_Bar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "heart",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                "PlayerSkins",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                "PlayerSkins",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "=",
+                "Health",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "sammy_the_slug",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "sammy_the_slug",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "sammy_the_slug",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
