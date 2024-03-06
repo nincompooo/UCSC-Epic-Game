@@ -2641,7 +2641,7 @@
       "name": "Dialoguez",
       "persistentUuid": "ed1c4c9e-89b4-47aa-840a-1a39de75d6ec",
       "width": 0,
-      "x": 241,
+      "x": 258,
       "y": 305,
       "zOrder": 2173,
       "numberProperties": [],
@@ -2675,6 +2675,21 @@
       "x": 98,
       "y": -415,
       "zOrder": 2175,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dialoguez2",
+      "persistentUuid": "452a33c7-65d6-47ae-9a54-f7c9dc5df270",
+      "width": 0,
+      "x": 283,
+      "y": 456,
+      "zOrder": 2176,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4398,7 +4413,7 @@
         }
       ],
       "content": {
-        "text": "Press Space Bar to Annihlate",
+        "text": "Press X to Annihlate",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -9301,7 +9316,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press E to pick up slime",
+      "string": "Press K to pick up slime",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -9324,11 +9339,38 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press E to pick up slime",
+        "text": "Press K to pick up slime",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Dialoguez2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "Move with Arrow Keys",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
       }
     }
   ],
@@ -9437,6 +9479,9 @@
         "children": [
           {
             "objectName": "Dialoguez"
+          },
+          {
+            "objectName": "Dialoguez2"
           },
           {
             "objectName": "E"
@@ -10515,7 +10560,7 @@
               },
               "parameters": [
                 "",
-                "Space"
+                "x"
               ]
             }
           ],
@@ -10570,7 +10615,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "k"
               ]
             }
           ],
