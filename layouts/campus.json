@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 1.4402359043061008,
+    "zoomFactor": 0.7669649888473941,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2644,6 +2644,37 @@
       "x": 241,
       "y": 305,
       "zOrder": 2173,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 15,
+      "layer": "",
+      "name": "slimeball",
+      "persistentUuid": "233569e5-be88-4dfd-8568-04fa5731a4a9",
+      "width": 12,
+      "x": 191,
+      "y": -378,
+      "zOrder": 2174,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "slimepickup",
+      "persistentUuid": "69315825-0015-4fb8-8e11-8e902e4df838",
+      "width": 0,
+      "x": 98,
+      "y": -415,
+      "zOrder": 2175,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9197,6 +9228,108 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "slimeball",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "slime_ball",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "slime_ball.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 674,
+                        "y": 0
+                      },
+                      {
+                        "x": 674,
+                        "y": 682
+                      },
+                      {
+                        "x": 0,
+                        "y": 682
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "slimepickup",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press E to pick up slime",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press E to pick up slime",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9315,6 +9448,9 @@
             "objectName": "score_text"
           },
           {
+            "objectName": "slimepickup"
+          },
+          {
             "objectName": "YesButton"
           },
           {
@@ -9351,6 +9487,9 @@
           },
           {
             "objectName": "PlayerSkin0"
+          },
+          {
+            "objectName": "slimeball"
           }
         ]
       },
@@ -9484,6 +9623,22 @@
           },
           "parameters": [
             "heart"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "slimeball"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "slimepickup"
           ]
         }
       ],
@@ -10328,6 +10483,30 @@
           "comment": "Sammy source: https://www.reddit.com/r/UCSC/comments/v87ihx/fixed_sammy_slug/"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "All music with unlisted sources was taken from the GDevelop assets files"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Slime ball source: https://www.reddit.com/r/PixelArt/comments/s0gqz9/a_16x16_yellow_ballmy_first_time_defining_a/"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10361,11 +10540,71 @@
                 "40",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "slimeball",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "slimepickup",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "slimeball",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
+                "",
+                "40",
+                ""
+              ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
