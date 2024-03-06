@@ -1108,6 +1108,47 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Background source: https://www.pixilart.com/art/forest-807792c4c97e66c?ft=staff-picks"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Banana slug source (we pixelated it for the game): https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.savetheredwoods.org%2Fblog%2Fwonders%2Fslug-truth-is-stranger-than-fiction%2F&psig=AOvVaw0wK95_MF2BNyVImQtR21Ad&ust=1709774526902000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCCgc-83oQDFQAAAAAdAAAAABAD"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Wings source: https://www.artstation.com/artwork/9N6G3R"
     }
   ],
   "layers": [
