@@ -12364,6 +12364,12 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -12373,12 +12379,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
