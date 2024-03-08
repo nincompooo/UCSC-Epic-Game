@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 1.5390040000682845,
+    "zoomFactor": 0.6716813796679257,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1744,14 +1744,15 @@
     },
     {
       "angle": 270,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 38,
       "layer": "",
       "name": "street_line_left",
       "persistentUuid": "ef6bee22-55f3-42f5-9151-c9e75af8735e",
-      "width": 0,
-      "x": 134,
-      "y": 317,
+      "width": 14,
+      "x": 146,
+      "y": 305,
       "zOrder": 2125,
       "numberProperties": [],
       "stringProperties": [],
@@ -11593,7 +11594,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "PlayerSkin1",
+                "PlayerSkin0",
                 "=",
                 "10000"
               ]
@@ -11735,7 +11736,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

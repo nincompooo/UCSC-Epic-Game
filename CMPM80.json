@@ -10780,6 +10780,85 @@
         "name": "NewSprite60",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor checkered white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor checkered white.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/381ebe3662dd0c8a30aef69554ad0814afd27c8531ff0c34fca82ff5536ceec0_floor checkered white.png",
+          "name": "floor checkered white.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Tile.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Floor Tile",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/table square brown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table square brown.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Furniture/992f76b1c552b8608b23c35d6b8746e29ff99d1046ce78b07672990f30808bd9_table square brown.png",
+          "name": "table square brown.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fight Area.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Fight Area",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/table round gray.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table round gray.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Furniture/84a828a448df76907372e295d5af43ee8d108baaa5f4869012b12bd734232d37_table round gray.png",
+          "name": "table round gray.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Food/73604edb648bb0e66b31435c5ae9c66aafe60bc23324a76f00c24b9adc13326b_Apple.png",
+          "name": "Apple.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Apple",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10892,6 +10971,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/campus"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dining-hall"
     }
   ],
   "externalEvents": [],
