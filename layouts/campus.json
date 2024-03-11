@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.6716813796679257,
+    "zoomFactor": 0.766964988847406,
     "windowMask": false
   },
   "objectsGroups": [
@@ -136,8 +136,8 @@
       "name": "CollisionDetect",
       "persistentUuid": "0166d221-c908-425d-8c2d-85f710145da4",
       "width": 467,
-      "x": -691,
-      "y": -297,
+      "x": -684,
+      "y": -288,
       "zOrder": 2000,
       "numberProperties": [],
       "stringProperties": [],
@@ -258,7 +258,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 659,
+      "height": 729,
       "layer": "",
       "name": "asphalt",
       "persistentUuid": "5bd0702c-1e73-4c9e-955a-ebfc6cbc3b7b",
@@ -3883,6 +3883,51 @@
       "width": 0,
       "x": 343,
       "y": 366,
+      "zOrder": 2206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "8deb8224-5d5f-4887-a5fe-43bb1a7d3e2b",
+      "width": 0,
+      "x": 0,
+      "y": 238,
+      "zOrder": 2206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "d68fdbf5-c797-4a9e-9cbf-d43f7fe70c05",
+      "width": 0,
+      "x": 343,
+      "y": 229,
+      "zOrder": 2206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "cdc74e65-492b-4a1f-a240-00eeba81b8d0",
+      "width": 0,
+      "x": 343,
+      "y": 64,
       "zOrder": 2206,
       "numberProperties": [],
       "stringProperties": [],
@@ -11436,7 +11481,7 @@
           },
           "parameters": [
             "",
-            "4",
+            "2",
             "",
             ""
           ]
@@ -11533,6 +11578,17 @@
           },
           "parameters": [
             "FightDialogue"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Health_Bar",
+            "=",
+            "16",
+            ""
           ]
         }
       ],
@@ -12345,29 +12401,11 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "Health_Bar",
-                "=",
-                "Health",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -12379,6 +12417,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -12411,6 +12455,17 @@
                 "9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
                 "",
                 "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "-",
+                "1",
                 ""
               ]
             }
@@ -12518,6 +12573,12 @@
                 "",
                 "k"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -12540,6 +12601,48 @@
                 "",
                 "40",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Dining Hall\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "Health_Bar",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"CampusDeath\""
               ]
             }
           ]

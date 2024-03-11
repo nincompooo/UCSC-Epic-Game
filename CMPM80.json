@@ -11054,6 +11054,23 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stick.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stick",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/FOrtnite.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/FOrtnite.json\"}",
+        "name": "FOrtnite",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11162,6 +11179,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quest"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/death"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/campusdeath"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

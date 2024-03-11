@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7732273599985964,
+    "zoomFactor": 0.6337075294398785,
     "windowMask": false
   },
   "objectsGroups": [
@@ -347,22 +347,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 70,
-      "layer": "",
-      "name": "TableRoundGray",
-      "persistentUuid": "69717a33-f135-401a-87ad-613bf75d937f",
-      "width": 121,
-      "x": 29,
-      "y": 728,
-      "zOrder": 2120,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 93,
       "layer": "",
       "name": "TableRoundGray",
@@ -371,22 +355,6 @@
       "x": 619,
       "y": 705,
       "zOrder": 2121,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 144,
-      "layer": "",
-      "name": "Apple",
-      "persistentUuid": "68bd615b-50e2-4147-ab2a-de344d151252",
-      "width": 251,
-      "x": -39,
-      "y": 654,
-      "zOrder": 2122,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -682,22 +650,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 25,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "570c9683-3117-4fe7-8ab9-314c3dbb2e78",
-      "width": 111,
-      "x": 35,
-      "y": 743,
-      "zOrder": 2143,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 118,
       "layer": "",
       "name": "BlueShirt",
@@ -764,8 +716,8 @@
       "name": "Apple2",
       "persistentUuid": "6d8e1f2a-59fb-4ccf-a1ff-3b375771e807",
       "width": 0,
-      "x": 194,
-      "y": 653,
+      "x": 197,
+      "y": 657,
       "zOrder": 2150,
       "numberProperties": [],
       "stringProperties": [],
@@ -798,21 +750,6 @@
       "x": 802,
       "y": 650,
       "zOrder": 2152,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "c8295758-277e-47b3-833e-0d39adc527ce",
-      "width": 0,
-      "x": 26,
-      "y": 738,
-      "zOrder": 2153,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -889,6 +826,66 @@
       "x": 545,
       "y": 13,
       "zOrder": 2158,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HolyStick",
+      "persistentUuid": "437d6871-d5f4-4c21-a109-9dbfba10ed22",
+      "width": 0,
+      "x": 879,
+      "y": 133,
+      "zOrder": 2159,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Stick_Pickup",
+      "persistentUuid": "a1ab898e-9556-4b6b-bcbc-d7ad6d697f3c",
+      "width": 0,
+      "x": 602,
+      "y": 81,
+      "zOrder": 2160,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ApplePickup",
+      "persistentUuid": "bc9dcd19-91dd-4d95-8076-01e385705e1a",
+      "width": 0,
+      "x": 32,
+      "y": 642,
+      "zOrder": 2161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Shoot",
+      "persistentUuid": "b2639714-020c-464a-89ff-7f98c82d4807",
+      "width": 0,
+      "x": 56,
+      "y": 497,
+      "zOrder": 2162,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6340,6 +6337,190 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HolyStick",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Stick",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Stick",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 11
+                      },
+                      {
+                        "x": 43,
+                        "y": 11
+                      },
+                      {
+                        "x": 43,
+                        "y": 38
+                      },
+                      {
+                        "x": 19,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Stick_Pickup",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press T to pickup the Holy Stick",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press T to pickup the Holy Stick",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ApplePickup",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press the keys to pickup the apples",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press the keys to pickup the apples",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Shoot",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Aim using the cursor and press x to fire.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Aim using the cursor and press x to fire.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6425,6 +6606,18 @@
       },
       {
         "objectName": "HealthBarHorizontal"
+      },
+      {
+        "objectName": "HolyStick"
+      },
+      {
+        "objectName": "Stick_Pickup"
+      },
+      {
+        "objectName": "ApplePickup"
+      },
+      {
+        "objectName": "Shoot"
       }
     ]
   },
@@ -6460,12 +6653,36 @@
         },
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "ResetTimer"
           },
           "parameters": [
-            "Player",
-            "=",
-            "1"
+            "",
+            "\"ZombieBullet\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HolyStick"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Stick_Pickup"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "ApplePickup",
+            "\"apple text\""
           ]
         },
         {
@@ -6474,7 +6691,15 @@
           },
           "parameters": [
             "",
-            "\"ZombieBullet\""
+            "\"Fire timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Shoot"
           ]
         }
       ],
@@ -7152,8 +7377,50 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"apple text\"",
+            ">=",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ApplePickup"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Shoot",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Xander Armatis drew the Zomie and EcoFriendlyFork"
     },
     {
       "colorB": 228,
@@ -7653,6 +7920,159 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Kill Zombie or Died",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+          },
+          "parameters": [
+            "Health_Bar2",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RemoveTimer"
+          },
+          "parameters": [
+            "",
+            "\"ZombieBullet\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BlueShirt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
+            "",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Stick_Pickup",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HolyStick",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "t"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "HolyStick",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "9f61477b68eef4ef1d96924047c7ed2d153de562efe919e30155d7b5b2eac879_Bleep_02.aac",
+            "",
+            "40",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+          },
+          "parameters": [
+            "Health_Bar",
+            "=",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Death\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -7836,6 +8256,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
