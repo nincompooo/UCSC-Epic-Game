@@ -4277,6 +4277,36 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "0f233830-842f-4c9e-a1d1-054d5e63843b",
+      "width": 0,
+      "x": -220,
+      "y": -772,
+      "zOrder": 2161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "9a676d04-8b91-445b-a299-2ea8475ad490",
+      "width": 0,
+      "x": -124,
+      "y": -789,
+      "zOrder": 2161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

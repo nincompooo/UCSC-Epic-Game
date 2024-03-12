@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5549791110019222,
+    "zoomFactor": 0.6130357612205324,
     "windowMask": false
   },
   "objectsGroups": [
@@ -78,22 +78,6 @@
       "height": 44,
       "layer": "",
       "name": "TableSquareBrown",
-      "persistentUuid": "b018318b-803e-4925-b15e-2fe8271c47bc",
-      "width": 57,
-      "x": 37,
-      "y": 577,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
       "persistentUuid": "2eaea00c-c381-4ede-9b3e-c1155d71677c",
       "width": 57,
       "x": 327,
@@ -114,22 +98,6 @@
       "width": 57,
       "x": 624,
       "y": 834,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
-      "persistentUuid": "d79430cc-7179-4633-8709-7929bafc122e",
-      "width": 57,
-      "x": 492,
-      "y": 614,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,74 +174,10 @@
       "height": 44,
       "layer": "",
       "name": "TableSquareBrown",
-      "persistentUuid": "8d4bfe40-fa6d-4c5e-81ae-85cad357b742",
-      "width": 57,
-      "x": 191,
-      "y": 573,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
-      "persistentUuid": "f6d0784c-d834-456b-9ef3-43c417a43833",
-      "width": 57,
-      "x": 351,
-      "y": 571,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
       "persistentUuid": "8632be9e-7018-4f8c-aa4f-efc949962e89",
       "width": 57,
       "x": 496,
       "y": 825,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
-      "persistentUuid": "65987e7e-fd11-43c9-9348-e4d19f02c2bc",
-      "width": 57,
-      "x": 437,
-      "y": 732,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
-      "persistentUuid": "6679f00b-52a4-4808-8f74-7cf62b44de73",
-      "width": 57,
-      "x": 623,
-      "y": 568,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -490,22 +394,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 16,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "649d2afb-a976-4413-997e-4fc71f6a0282",
-      "width": 45,
-      "x": 442,
-      "y": 743,
-      "zOrder": 2134,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 37,
       "layer": "",
       "name": "CollisionDetect",
@@ -538,125 +426,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 16,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "41f6b56d-fe45-4c58-a377-ba93aa4b99b7",
-      "width": 55,
-      "x": 625,
-      "y": 577,
-      "zOrder": 2137,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "99c38b38-48b0-4af6-b4d2-fb8f9d34cbe2",
-      "width": 47,
-      "x": 42,
-      "y": 587,
-      "zOrder": 2138,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 21,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "46e5eeb7-0edd-4707-9b41-ba8cdd12a0d7",
-      "width": 45,
-      "x": 196,
-      "y": 580,
-      "zOrder": 2139,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 19,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "d7674da2-aa3c-45a8-bc1e-0b13a04cac21",
-      "width": 48,
-      "x": 353,
-      "y": 580,
-      "zOrder": 2140,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "2e6a6fb1-2994-434f-8a4a-1d71ec710972",
-      "width": 54,
-      "x": 492,
-      "y": 625,
-      "zOrder": 2141,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TableSquareBrown",
-      "persistentUuid": "c764ab5a-2b45-4d39-ba59-2b7fa49dadb3",
-      "width": 57,
-      "x": 844,
-      "y": 563,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "d7de1c92-af1f-4a66-afe2-49952dfb15db",
-      "width": 47,
-      "x": 848,
-      "y": 572,
-      "zOrder": 2142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 118,
       "layer": "",
       "name": "BlueShirt",
       "persistentUuid": "87e90886-6575-4ca9-921f-37409c132d23",
       "width": 127,
-      "x": 841,
-      "y": 80,
+      "x": 447,
+      "y": 24,
       "zOrder": 2145,
       "numberProperties": [],
       "stringProperties": [],
@@ -701,8 +477,8 @@
       "name": "HitBox",
       "persistentUuid": "31f43ff5-3844-45bc-ba86-f78e664b15c7",
       "width": 0,
-      "x": 374,
-      "y": 650,
+      "x": 408,
+      "y": 614,
       "zOrder": 2149,
       "numberProperties": [],
       "stringProperties": [],
@@ -886,6 +662,54 @@
       "x": 56,
       "y": 497,
       "zOrder": 2162,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "",
+      "name": "ObjectBackground",
+      "persistentUuid": "a299e804-9d44-4542-852b-44bb986387c3",
+      "width": 947,
+      "x": 16,
+      "y": -9,
+      "zOrder": 2167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "",
+      "name": "ObjectBackground",
+      "persistentUuid": "4aea8a1b-4683-401d-9a79-6a29edf6c2d5",
+      "width": 947,
+      "x": 502,
+      "y": 382,
+      "zOrder": 2167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "",
+      "name": "ObjectBackground",
+      "persistentUuid": "88fb1a43-0736-4f6a-b8ac-541756b7ee84",
+      "width": 947,
+      "x": -460,
+      "y": 344,
+      "zOrder": 2167,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1303,7 +1127,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right96",
+                  "image": "Right149",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1339,7 +1163,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right97",
+                  "image": "Right150",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1375,7 +1199,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right98",
+                  "image": "Right151",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1411,7 +1235,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right99",
+                  "image": "Right152",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1447,7 +1271,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right100",
+                  "image": "Right153",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1483,7 +1307,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right101",
+                  "image": "Right154",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1519,7 +1343,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right102",
+                  "image": "Right155",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1555,7 +1379,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right103",
+                  "image": "Right156",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1604,7 +1428,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left89",
+                  "image": "Left135",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1640,7 +1464,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left90",
+                  "image": "Left136",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1676,7 +1500,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left91",
+                  "image": "Left137",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1712,7 +1536,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left92",
+                  "image": "Left138",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1748,7 +1572,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left93",
+                  "image": "Left139",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1784,7 +1608,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left94",
+                  "image": "Left140",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1820,7 +1644,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left95",
+                  "image": "Left141",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1856,7 +1680,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left96",
+                  "image": "Left142",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1905,7 +1729,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left25",
+                  "image": "Standing_Left94",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1941,7 +1765,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left26",
+                  "image": "Standing_Left95",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1977,7 +1801,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left27",
+                  "image": "Standing_Left96",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2013,7 +1837,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left28",
+                  "image": "Standing_Left97",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2049,7 +1873,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left29",
+                  "image": "Standing_Left98",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2085,7 +1909,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left30",
+                  "image": "Standing_Left99",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2121,7 +1945,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left31",
+                  "image": "Standing_Left100",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2157,7 +1981,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left32",
+                  "image": "Standing_Left101",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2193,7 +2017,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left33",
+                  "image": "Standing_Left102",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2229,7 +2053,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left34",
+                  "image": "Standing_Left103",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2265,7 +2089,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left35",
+                  "image": "Standing_Left104",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2301,7 +2125,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left36",
+                  "image": "Standing_Left105",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2350,7 +2174,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right36",
+                  "image": "Standing_Right77",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2386,7 +2210,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right37",
+                  "image": "Standing_Right78",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2422,7 +2246,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right38",
+                  "image": "Standing_Right79",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2458,7 +2282,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right39",
+                  "image": "Standing_Right80",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2494,7 +2318,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right40",
+                  "image": "Standing_Right81",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2530,7 +2354,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right41",
+                  "image": "Standing_Right82",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2566,7 +2390,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right42",
+                  "image": "Standing_Right83",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2722,7 +2546,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left129",
+                  "image": "Left154",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2758,7 +2582,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left130",
+                  "image": "Left155",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2794,7 +2618,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left131",
+                  "image": "Left156",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2830,7 +2654,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left132",
+                  "image": "Left157",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2866,7 +2690,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left133",
+                  "image": "Left158",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2902,7 +2726,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left134",
+                  "image": "Left159",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2951,7 +2775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right143",
+                  "image": "Right168",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2987,7 +2811,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right144",
+                  "image": "Right169",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3023,7 +2847,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right145",
+                  "image": "Right170",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3059,7 +2883,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right146",
+                  "image": "Right171",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3095,7 +2919,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right147",
+                  "image": "Right172",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3131,7 +2955,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right148",
+                  "image": "Right173",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3180,7 +3004,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right73",
+                  "image": "Standing_Right98",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3216,7 +3040,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right74",
+                  "image": "Standing_Right99",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3252,7 +3076,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right75",
+                  "image": "Standing_Right100",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3288,7 +3112,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right76",
+                  "image": "Standing_Right101",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3337,7 +3161,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left90",
+                  "image": "Standing_Left120",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3373,7 +3197,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left91",
+                  "image": "Standing_Left121",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3409,7 +3233,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left92",
+                  "image": "Standing_Left122",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3445,7 +3269,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left93",
+                  "image": "Standing_Left123",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3601,7 +3425,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right63",
+                  "image": "Standing_Right84",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3637,7 +3461,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right64",
+                  "image": "Standing_Right85",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3673,7 +3497,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right65",
+                  "image": "Standing_Right86",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3709,7 +3533,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right66",
+                  "image": "Standing_Right87",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3745,7 +3569,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right67",
+                  "image": "Standing_Right88",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3781,7 +3605,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right68",
+                  "image": "Standing_Right89",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3817,7 +3641,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right69",
+                  "image": "Standing_Right90",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3853,7 +3677,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right70",
+                  "image": "Standing_Right91",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3889,7 +3713,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right71",
+                  "image": "Standing_Right92",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3925,7 +3749,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Right72",
+                  "image": "Standing_Right93",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3974,7 +3798,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left80",
+                  "image": "Standing_Left106",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4010,7 +3834,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left81",
+                  "image": "Standing_Left107",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4046,7 +3870,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left82",
+                  "image": "Standing_Left108",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4082,7 +3906,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left83",
+                  "image": "Standing_Left109",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4118,7 +3942,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left84",
+                  "image": "Standing_Left110",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4154,7 +3978,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left85",
+                  "image": "Standing_Left111",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4190,7 +4014,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left86",
+                  "image": "Standing_Left112",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4226,7 +4050,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left87",
+                  "image": "Standing_Left113",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4262,7 +4086,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left88",
+                  "image": "Standing_Left114",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4298,7 +4122,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Standing_Left89",
+                  "image": "Standing_Left115",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4347,7 +4171,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right138",
+                  "image": "Right157",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4383,7 +4207,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right139",
+                  "image": "Right158",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4419,7 +4243,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right140",
+                  "image": "Right159",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4455,7 +4279,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right141",
+                  "image": "Right160",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4491,7 +4315,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right142",
+                  "image": "Right161",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4540,7 +4364,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down130",
+                  "image": "Down135",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4576,7 +4400,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down131",
+                  "image": "Down136",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4612,7 +4436,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down132",
+                  "image": "Down137",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4648,7 +4472,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down133",
+                  "image": "Down138",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4684,7 +4508,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Down134",
+                  "image": "Down139",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4733,7 +4557,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up34",
+                  "image": "Up39",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4769,7 +4593,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up35",
+                  "image": "Up40",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4805,7 +4629,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up36",
+                  "image": "Up41",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4841,7 +4665,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up37",
+                  "image": "Up42",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4877,7 +4701,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up38",
+                  "image": "Up43",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4926,7 +4750,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left124",
+                  "image": "Left143",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4962,7 +4786,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left125",
+                  "image": "Left144",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4998,7 +4822,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left126",
+                  "image": "Left145",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5034,7 +4858,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left127",
+                  "image": "Left146",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5070,7 +4894,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left128",
+                  "image": "Left147",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5916,17 +5740,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite3",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "P_",
@@ -6521,6 +6334,408 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ObjectBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 2,
+          "SpawnerCapacity": 2,
+          "UnlimitedCapacity": true,
+          "RandomPosition": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite65",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "minizombies",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 3,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true,
+          "RandomPosition": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Zombie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.215,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 4
+                      },
+                      {
+                        "x": 76,
+                        "y": 104
+                      },
+                      {
+                        "x": 20,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6557,6 +6772,12 @@
         "objectName": "Apple2"
       },
       {
+        "objectName": "ObjectBackground"
+      },
+      {
+        "objectName": "minizombies"
+      },
+      {
         "objectName": "Apple3"
       },
       {
@@ -6567,9 +6788,6 @@
       },
       {
         "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "NewTiledSprite3"
       },
       {
         "objectName": "P_"
@@ -6700,6 +6918,14 @@
           },
           "parameters": [
             "Shoot"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ObjectBackground"
           ]
         }
       ],
@@ -6835,18 +7061,25 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+          },
+          "parameters": [
+            "ObjectBackground",
+            "ObjectSpawner",
+            "minizombies",
+            ""
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -7435,6 +7668,160 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "minizombies",
+            "PlayerSkins",
+            "100",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "EstTourne"
+          },
+          "parameters": [
+            "minizombies",
+            "PlayerSkins",
+            "90",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "minizombies",
+            "Flippable",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "EstTourne"
+          },
+          "parameters": [
+            "minizombies",
+            "PlayerSkins",
+            "90",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "minizombies",
+            "Flippable",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "PlayerSkins",
+            "minizombies",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "PlayerSkins",
+            "Health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Health_Bar",
+            "-",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Hit ",
+            "",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "minizombies",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -7475,7 +7862,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "PlayerSkin2",
+            "PlayerSkins",
             "EcoFriendlyFork",
             "",
             "",
@@ -7495,141 +7882,7 @@
             "value": "ModVarObjet"
           },
           "parameters": [
-            "PlayerSkin2",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Health_Bar",
-            "-",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Hit ",
-            "",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "EcoFriendlyFork"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "PlayerSkin1",
-            "EcoFriendlyFork",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "PlayerSkin1",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Health_Bar",
-            "-",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Hit ",
-            "",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "EcoFriendlyFork"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "PlayerSkin0",
-            "EcoFriendlyFork",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "PlayerSkin0",
+            "PlayerSkins",
             "Health",
             "-",
             "1"
@@ -8244,6 +8497,10 @@
     {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
     },
     {
       "name": "Opacity",

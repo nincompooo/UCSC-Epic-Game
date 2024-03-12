@@ -11071,6 +11071,1212 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/FOrtnite.json\"}",
         "name": "FOrtnite",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite64",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite65",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Zombie16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Zombie16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right149",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right150",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right151",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right152",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right153",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right154",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right155",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right156",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left135",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left136",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left137",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left138",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left139",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left140",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left141",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left142",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left94",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left95",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left96",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left97",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left98",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left99",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left100",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left101",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left102",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left103",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left104",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left105",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right77",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right78",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right79",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right80",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right81",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right82",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right83",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right84",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right85",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right86",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right87",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right88",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right89",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right90",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right91",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right92",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right93",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left106",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left107",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left108",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left109",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left110",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left111",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left112",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left113",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left114",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left115",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right157",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right158",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right159",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right160",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right161",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down135",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down136",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down137",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down138",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down139",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left143",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left144",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left145",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left146",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left147",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left148",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left149",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left150",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left151",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right162",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right163",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right164",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right165",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right166",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right167",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right94",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right95",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right96",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right97",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left116",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left117",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left118",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left119",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left154",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left155",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left156",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left157",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left158",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left159",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right168",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right169",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right170",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right171",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right172",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right173",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right98",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right99",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right100",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Right101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Right101",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left120",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left121",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left122",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing_Left123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing_Left123",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11199,6 +12405,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"
