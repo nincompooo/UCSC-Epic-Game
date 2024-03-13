@@ -477,8 +477,8 @@
       "name": "HitBox",
       "persistentUuid": "31f43ff5-3844-45bc-ba86-f78e664b15c7",
       "width": 0,
-      "x": 408,
-      "y": 614,
+      "x": 476,
+      "y": 618,
       "zOrder": 2149,
       "numberProperties": [],
       "stringProperties": [],
@@ -6347,7 +6347,7 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
+          "SpawnPeriod": 5,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
@@ -6445,7 +6445,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie9",
+                  "image": "Zombie17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6481,7 +6481,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie10",
+                  "image": "Zombie18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6517,7 +6517,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie11",
+                  "image": "Zombie19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6553,7 +6553,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie12",
+                  "image": "Zombie20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6589,7 +6589,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie13",
+                  "image": "Zombie21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6625,7 +6625,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie14",
+                  "image": "Zombie22",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6661,7 +6661,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie15",
+                  "image": "Zombie23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6697,7 +6697,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Zombie16",
+                  "image": "Zombie24",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6742,100 +6742,120 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewTiledSprite"
+        "folderName": "obstacles",
+        "children": [
+          {
+            "objectName": "TableRoundGray"
+          },
+          {
+            "objectName": "TableSquareBrown"
+          },
+          {
+            "objectName": "ZombieHB"
+          },
+          {
+            "objectName": "EcoFriendlyFork"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "BlueShirt"
+          },
+          {
+            "objectName": "ObjectBackground"
+          },
+          {
+            "objectName": "minizombies"
+          }
+        ]
       },
       {
-        "objectName": "TableSquareBrown"
+        "folderName": "player",
+        "children": [
+          {
+            "objectName": "PlayerSkin2"
+          },
+          {
+            "objectName": "PlayerSkin1"
+          },
+          {
+            "objectName": "PlayerSkin0"
+          },
+          {
+            "objectName": "HitBox"
+          }
+        ]
       },
       {
-        "objectName": "HitBox"
-      },
-      {
-        "objectName": "NewTiledSprite2"
-      },
-      {
-        "objectName": "NewSprite3"
-      },
-      {
-        "objectName": "GetApp"
-      },
-      {
-        "objectName": "EcoFriendlyFork"
-      },
-      {
-        "objectName": "TableRoundGray"
-      },
-      {
-        "objectName": "Apple"
-      },
-      {
-        "objectName": "Apple2"
-      },
-      {
-        "objectName": "ObjectBackground"
-      },
-      {
-        "objectName": "minizombies"
-      },
-      {
-        "objectName": "Apple3"
-      },
-      {
-        "objectName": "Apple4"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "P_"
-      },
-      {
-        "objectName": "q"
-      },
-      {
-        "objectName": "PlayerSkin0"
-      },
-      {
-        "objectName": "PlayerSkin1"
-      },
-      {
-        "objectName": "PlayerSkin2"
-      },
-      {
-        "objectName": "CollisionDetect"
-      },
-      {
-        "objectName": "ZombieHB"
-      },
-      {
-        "objectName": "BlueShirt"
-      },
-      {
-        "objectName": "Health_Bar"
-      },
-      {
-        "objectName": "Health_Bar2"
-      },
-      {
-        "objectName": "Apple5"
-      },
-      {
-        "objectName": "HealthBarHorizontal"
-      },
-      {
-        "objectName": "HolyStick"
-      },
-      {
-        "objectName": "Stick_Pickup"
-      },
-      {
-        "objectName": "ApplePickup"
-      },
-      {
-        "objectName": "Shoot"
+        "folderName": "background",
+        "children": [
+          {
+            "folderName": "dialogue",
+            "children": [
+              {
+                "objectName": "Stick_Pickup"
+              },
+              {
+                "objectName": "ApplePickup"
+              },
+              {
+                "objectName": "Shoot"
+              }
+            ]
+          },
+          {
+            "objectName": "HolyStick"
+          },
+          {
+            "objectName": "HealthBarHorizontal"
+          },
+          {
+            "objectName": "Apple5"
+          },
+          {
+            "objectName": "Health_Bar2"
+          },
+          {
+            "objectName": "Health_Bar"
+          },
+          {
+            "objectName": "CollisionDetect"
+          },
+          {
+            "objectName": "q"
+          },
+          {
+            "objectName": "P_"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Apple3"
+          },
+          {
+            "objectName": "Apple2"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "GetApp"
+          },
+          {
+            "objectName": "Apple"
+          },
+          {
+            "objectName": "Apple4"
+          }
+        ]
       }
     ]
   },
@@ -7060,23 +7080,6 @@
                 "10000"
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-          },
-          "parameters": [
-            "ObjectBackground",
-            "ObjectSpawner",
-            "minizombies",
-            ""
           ]
         }
       ]
@@ -7510,92 +7513,18 @@
             "value": "FireBullet::FireBullet::FireTowardPosition"
           },
           "parameters": [
-            "PlayerSkin0",
+            "PlayerSkins",
             "FireBullet",
             "PlayerSkins.X()",
             "PlayerSkins.Y()",
             "Apple5",
             "CursorX()",
             "CursorY()",
-            "500",
+            "1000",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "x"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
-          },
-          "parameters": [
-            "PlayerSkin1",
-            "FireBullet",
-            "PlayerSkins.X()",
-            "PlayerSkins.Y()",
-            "Apple5",
-            "CursorX()",
-            "CursorY()",
-            "500",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "x"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
-          },
-          "parameters": [
-            "PlayerSkin2",
-            "FireBullet",
-            "PlayerSkins.X()",
-            "PlayerSkins.Y()",
-            "Apple5",
-            "CursorX()",
-            "CursorY()",
-            "500",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "colorB": 228,
@@ -7672,12 +7601,29 @@
       "actions": [
         {
           "type": {
+            "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+          },
+          "parameters": [
+            "ObjectBackground",
+            "ObjectSpawner",
+            "minizombies",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
             "value": "AddForceVers"
           },
           "parameters": [
             "minizombies",
             "PlayerSkins",
-            "100",
+            "50",
             "0"
           ]
         }
@@ -7848,7 +7794,7 @@
             "EcoFriendlyFork",
             "PlayerSkins.X()",
             "PlayerSkins.Y()",
-            "500",
+            "300",
             ""
           ]
         }
@@ -7949,6 +7895,34 @@
             "Sounds\\BossFight.mp3",
             "yes",
             "1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Apple5",
+            "minizombies",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "minizombies",
             ""
           ]
         }

@@ -11603,6 +11603,17 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -11807,6 +11818,9 @@
           },
           {
             "objectName": "concrete"
+          },
+          {
+            "objectName": "NewSprite"
           },
           {
             "objectName": "concrete_left"
