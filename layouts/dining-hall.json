@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6130357612205324,
+    "zoomFactor": 0.6337075294398795,
     "windowMask": false
   },
   "objectsGroups": [
@@ -670,13 +670,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 52,
+      "height": 129,
       "layer": "",
       "name": "ObjectBackground",
       "persistentUuid": "a299e804-9d44-4542-852b-44bb986387c3",
       "width": 947,
       "x": 16,
-      "y": -9,
+      "y": -86,
       "zOrder": 2167,
       "numberProperties": [],
       "stringProperties": [],
@@ -686,13 +686,13 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 52,
+      "height": 113,
       "layer": "",
       "name": "ObjectBackground",
       "persistentUuid": "4aea8a1b-4683-401d-9a79-6a29edf6c2d5",
       "width": 947,
-      "x": 502,
-      "y": 382,
+      "x": 533,
+      "y": 351,
       "zOrder": 2167,
       "numberProperties": [],
       "stringProperties": [],
@@ -702,13 +702,13 @@
       "angle": 270,
       "customSize": true,
       "depth": 1,
-      "height": 52,
+      "height": 177,
       "layer": "",
       "name": "ObjectBackground",
       "persistentUuid": "88fb1a43-0736-4f6a-b8ac-541756b7ee84",
       "width": 947,
-      "x": -460,
-      "y": 344,
+      "x": -523,
+      "y": 281,
       "zOrder": 2167,
       "numberProperties": [],
       "stringProperties": [],
@@ -6740,7 +6740,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.16666666666666666,
               "sprites": [
@@ -7037,6 +7037,333 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "minizombies2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 3,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true,
+          "RandomPosition": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.16666666666666666,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 4
+                      },
+                      {
+                        "x": 108,
+                        "y": 108
+                      },
+                      {
+                        "x": 20,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7068,6 +7395,9 @@
           },
           {
             "objectName": "minizombies"
+          },
+          {
+            "objectName": "minizombies2"
           }
         ]
       },
@@ -8224,6 +8554,54 @@
           },
           "parameters": [
             "minizombies",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "minizombies2",
+            "minizombies.CenterX()",
+            "minizombies.CenterY()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "minizombies2",
+            "Animation",
+            "=",
+            "\"dead\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "minizombies2",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "minizombies2",
             ""
           ]
         }
