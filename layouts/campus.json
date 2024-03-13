@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.4222022104727025,
+    "zoomFactor": 0.8471975907683088,
     "windowMask": false
   },
   "objectsGroups": [
@@ -114,6 +114,9 @@
         },
         {
           "name": "Enemy"
+        },
+        {
+          "name": "baytree_bookstore"
         }
       ]
     }
@@ -1744,22 +1747,6 @@
     },
     {
       "angle": 270,
-      "customSize": true,
-      "depth": 1,
-      "height": 38,
-      "layer": "",
-      "name": "street_line_left",
-      "persistentUuid": "ef6bee22-55f3-42f5-9151-c9e75af8735e",
-      "width": 14,
-      "x": 146,
-      "y": 305,
-      "zOrder": 2125,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1871,8 +1858,8 @@
       "name": "black_car",
       "persistentUuid": "920c4594-830d-485a-a5e3-7755802e3519",
       "width": 0,
-      "x": 124,
-      "y": 342,
+      "x": 120,
+      "y": 336,
       "zOrder": 2148,
       "numberProperties": [],
       "stringProperties": [],
@@ -2006,8 +1993,8 @@
       "name": "red_car",
       "persistentUuid": "cf947bc3-7848-4f71-8f3a-4faae654a392",
       "width": 0,
-      "x": 113,
-      "y": 276,
+      "x": 125,
+      "y": 274,
       "zOrder": 2149,
       "numberProperties": [],
       "stringProperties": [],
@@ -2274,13 +2261,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 250,
+      "height": 200,
       "layer": "Collision",
       "name": "CollisionDetect",
       "persistentUuid": "bf945eab-1a2a-42b1-a32f-46b7e8fbe34f",
       "width": 827,
       "x": 560,
-      "y": 324,
+      "y": 374,
       "zOrder": 2154,
       "numberProperties": [],
       "stringProperties": [],
@@ -2402,21 +2389,6 @@
       "x": 694,
       "y": -711,
       "zOrder": 2163,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "c4419a4c-4ca8-452b-a3c6-6dceda67442c",
-      "width": 0,
-      "x": 847,
-      "y": -557,
-      "zOrder": 2164,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4179,111 +4151,6 @@
       "height": 0,
       "layer": "",
       "name": "Tree1",
-      "persistentUuid": "8ab6d690-6abe-4661-9ac9-602c59666c87",
-      "width": 0,
-      "x": 814,
-      "y": -609,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "85b6511a-89c5-453a-bef0-1ef31ec26ada",
-      "width": 0,
-      "x": 867,
-      "y": -495,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "98bf7978-b461-4c18-8c6f-044f9bde29a1",
-      "width": 0,
-      "x": 919,
-      "y": -405,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "ee4ffb8e-9430-436d-8ec3-46e9106ca230",
-      "width": 0,
-      "x": 935,
-      "y": -359,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "01b0b1e6-7aaf-40af-8a68-894f630ac4e2",
-      "width": 0,
-      "x": 971,
-      "y": -307,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "511d4706-4e43-4d1f-aa14-e132756ed9c0",
-      "width": 0,
-      "x": 1034,
-      "y": -280,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
-      "persistentUuid": "5b66e3f6-e157-49a1-a8d6-d80457d55287",
-      "width": 0,
-      "x": 1068,
-      "y": -247,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
       "persistentUuid": "0f233830-842f-4c9e-a1d1-054d5e63843b",
       "width": 0,
       "x": -220,
@@ -4304,6 +4171,66 @@
       "x": -124,
       "y": -789,
       "zOrder": 2161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "baytree_bookstore",
+      "persistentUuid": "75240549-39a6-4eea-9a09-9744b686084b",
+      "width": 0,
+      "x": 811,
+      "y": -640,
+      "zOrder": 2207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "478f87bd-11d5-401a-bc95-396c54efc519",
+      "width": 0,
+      "x": 1092,
+      "y": -353,
+      "zOrder": 2208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tree1",
+      "persistentUuid": "57e6baa6-a14e-4217-9842-86fb4f99fa3b",
+      "width": 0,
+      "x": 1070,
+      "y": -278,
+      "zOrder": 2209,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "street_line_left",
+      "persistentUuid": "c29d0562-11d0-4181-93db-f033a8417f04",
+      "width": 0,
+      "x": 134,
+      "y": 317,
+      "zOrder": 2128,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11614,6 +11541,67 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "baytree_bookstore",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite68",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 2
+                      },
+                      {
+                        "x": 287,
+                        "y": 2
+                      },
+                      {
+                        "x": 287,
+                        "y": 285
+                      },
+                      {
+                        "x": 13,
+                        "y": 285
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11654,6 +11642,9 @@
       {
         "folderName": "Obstacles",
         "children": [
+          {
+            "objectName": "baytree_bookstore"
+          },
           {
             "objectName": "wooden_barrier"
           },

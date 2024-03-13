@@ -12282,7 +12282,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie17.png\"}",
         "name": "Zombie17",
         "smoothed": true,
         "userAdded": false
@@ -12291,7 +12291,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie18.png\"}",
         "name": "Zombie18",
         "smoothed": true,
         "userAdded": false
@@ -12300,7 +12300,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie19.png\"}",
         "name": "Zombie19",
         "smoothed": true,
         "userAdded": false
@@ -12309,7 +12309,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie20.png\"}",
         "name": "Zombie20",
         "smoothed": true,
         "userAdded": false
@@ -12318,7 +12318,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie21.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie21.png\"}",
         "name": "Zombie21",
         "smoothed": true,
         "userAdded": false
@@ -12327,7 +12327,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie22.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie22.png\"}",
         "name": "Zombie22",
         "smoothed": true,
         "userAdded": false
@@ -12336,7 +12336,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie23.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie23.png\"}",
         "name": "Zombie23",
         "smoothed": true,
         "userAdded": false
@@ -12345,7 +12345,7 @@
         "alwaysLoaded": false,
         "file": "assets/Zombie24.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Zombie24.png\"}",
         "name": "Zombie24",
         "smoothed": true,
         "userAdded": false
@@ -12356,6 +12356,186 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"building.jpeg\",\"extension\":\".png\"}",
         "name": "building.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite66",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite67",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite68",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../ucsc end game/Zombie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../ucsc end game/Zombie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead16",
         "smoothed": true,
         "userAdded": true
       }
@@ -12482,6 +12662,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dining-hall"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/chancellor"
     }
   ],
   "externalEvents": [],
