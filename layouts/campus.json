@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.39510669392231174,
+    "zoomFactor": 0.40842982205828404,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2288,21 +2288,6 @@
       "height": 0,
       "layer": "",
       "name": "Tree1",
-      "persistentUuid": "8ce7d758-7140-4dba-8c5b-c6925c3e47ea",
-      "width": 0,
-      "x": -381,
-      "y": -127,
-      "zOrder": 2156,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
       "persistentUuid": "91897796-8252-4139-93c9-032510e0a695",
       "width": 0,
       "x": -384,
@@ -2398,21 +2383,6 @@
       "x": 694,
       "y": -711,
       "zOrder": 2163,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree3",
-      "persistentUuid": "04aae585-20f4-49ac-a7e7-0d876e405327",
-      "width": 0,
-      "x": -214,
-      "y": -66,
-      "zOrder": 2167,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4131,21 +4101,6 @@
       "height": 0,
       "layer": "",
       "name": "Tree1",
-      "persistentUuid": "510d1661-cc8b-4318-865e-3f724f49712c",
-      "width": 0,
-      "x": -294,
-      "y": -118,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Tree1",
       "persistentUuid": "8ee17ae6-ada7-4134-84bb-1e9c756015fa",
       "width": 0,
       "x": 744,
@@ -4181,22 +4136,6 @@
       "x": -124,
       "y": -789,
       "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 192,
-      "layer": "",
-      "name": "baytree_bookstore",
-      "persistentUuid": "75240549-39a6-4eea-9a09-9744b686084b",
-      "width": 227,
-      "x": 514,
-      "y": -396,
-      "zOrder": 2207,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4255,8 +4194,8 @@
       "name": "woodbuilding",
       "persistentUuid": "5305ea55-89b9-4ed4-96e6-f22f28801ca3",
       "width": 203,
-      "x": 47,
-      "y": -277,
+      "x": -298,
+      "y": -204,
       "zOrder": 2210,
       "numberProperties": [],
       "stringProperties": [],
@@ -4271,8 +4210,8 @@
       "name": "iveta",
       "persistentUuid": "1aa0747e-4774-43f3-88ec-94281833969a",
       "width": 182,
-      "x": 419,
-      "y": -580,
+      "x": -120,
+      "y": -587,
       "zOrder": 2211,
       "numberProperties": [],
       "stringProperties": [],
@@ -4287,8 +4226,8 @@
       "name": "greybuilding",
       "persistentUuid": "742bf45a-8873-4599-bc68-0fe12e06471c",
       "width": 216,
-      "x": 551,
-      "y": -204,
+      "x": 723,
+      "y": -213,
       "zOrder": 2212,
       "numberProperties": [],
       "stringProperties": [],
@@ -4303,8 +4242,8 @@
       "name": "woodbuilding",
       "persistentUuid": "aa474648-b774-436a-8885-a49615e738a9",
       "width": 216,
-      "x": -20,
-      "y": -507,
+      "x": -311,
+      "y": -436,
       "zOrder": 2213,
       "numberProperties": [],
       "stringProperties": [],
@@ -4319,9 +4258,57 @@
       "name": "woodbuilding",
       "persistentUuid": "81965958-0b4e-4492-b117-631e0d549569",
       "width": 216,
-      "x": -137,
-      "y": -284,
+      "x": -303,
+      "y": 14,
       "zOrder": 2213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 167,
+      "layer": "",
+      "name": "greybuilding",
+      "persistentUuid": "f1d77d5c-4d52-46d2-9503-0a27270281b5",
+      "width": 216,
+      "x": 717,
+      "y": -377,
+      "zOrder": 2212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "baytree_bookstore",
+      "persistentUuid": "4382aa9a-5f9f-43a4-b343-abc455076a0c",
+      "width": 227,
+      "x": 485,
+      "y": -569,
+      "zOrder": 2207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "baytree_bookstore",
+      "persistentUuid": "8c73dcee-6985-4a33-aba7-35ef947183a8",
+      "width": 227,
+      "x": 632,
+      "y": -570,
+      "zOrder": 2214,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11825,11 +11812,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "iveta",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -11850,19 +11838,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
+                        "x": 35,
                         "y": 7
                       },
                       {
-                        "x": 349,
+                        "x": 382,
                         "y": 7
                       },
                       {
-                        "x": 349,
+                        "x": 382,
                         "y": 384
                       },
                       {
-                        "x": 2,
+                        "x": 35,
                         "y": 384
                       }
                     ]

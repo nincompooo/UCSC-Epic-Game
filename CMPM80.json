@@ -15558,7 +15558,7 @@
         "alwaysLoaded": false,
         "file": "iveta.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"iveta.png\",\"extension\":\".png\"}",
         "name": "iveta.png",
         "smoothed": true,
         "userAdded": true
