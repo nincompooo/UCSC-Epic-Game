@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.40842982205828404,
+    "zoomFactor": 1.0000000000000462,
     "windowMask": false
   },
   "objectsGroups": [
@@ -12448,6 +12448,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

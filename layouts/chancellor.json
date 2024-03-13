@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.337466582242663,
+    "zoomFactor": 0.6550763565069042,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,6 +27,20 @@
       "objects": [
         {
           "name": "tree_large"
+        }
+      ]
+    },
+    {
+      "name": "PlayerSkins",
+      "objects": [
+        {
+          "name": "PlayerSkin0"
+        },
+        {
+          "name": "PlayerSkin2"
+        },
+        {
+          "name": "PlayerSkin1"
         }
       ]
     }
@@ -735,6 +749,142 @@
       "x": 251,
       "y": 324,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "bush",
+      "persistentUuid": "0d78aca1-597d-4e4a-a3a1-67e80c3ed6f6",
+      "width": 0,
+      "x": 486,
+      "y": 15,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "bush",
+      "persistentUuid": "14294631-0e4d-4cf7-b626-a9291ac46482",
+      "width": 0,
+      "x": 539,
+      "y": 40,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "bush",
+      "persistentUuid": "78b85d3b-95fa-4b05-bd41-dd25519080d3",
+      "width": 0,
+      "x": 184,
+      "y": 322,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HitBox",
+      "persistentUuid": "bd728c59-a478-4d89-a221-2b486e4ab927",
+      "width": 0,
+      "x": 607,
+      "y": 647,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Health_Bar",
+      "persistentUuid": "19e71971-395a-422e-b9f2-59645495ee7d",
+      "width": 0,
+      "x": 116,
+      "y": 42,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "heart",
+      "persistentUuid": "f20dcd6e-2dc8-4818-8e33-ebc0c131e4c5",
+      "width": 0,
+      "x": 34,
+      "y": 40,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 509,
+      "layer": "",
+      "name": "vision",
+      "persistentUuid": "2b9a5c61-b920-425b-8eb1-9076d6a6ff68",
+      "width": 509,
+      "x": 378,
+      "y": 70,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "monster",
+      "persistentUuid": "fa0d9e41-ee3c-409f-bf30-e68e37aeaa64",
+      "width": 0,
+      "x": 603,
+      "y": 277,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Health_Bar2",
+      "persistentUuid": "a4ce4907-48ec-4d7a-bdbe-5338f2157d0a",
+      "width": 0,
+      "x": 434,
+      "y": 213,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5548,6 +5698,660 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "monster",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 16
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        },
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "cynthia-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cynthia-removebg-preview4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bullet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.265,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite394",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 62
+                      },
+                      {
+                        "x": 16,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite395",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 62
+                      },
+                      {
+                        "x": 16,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite396",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 2
+                      },
+                      {
+                        "x": 48,
+                        "y": 62
+                      },
+                      {
+                        "x": 16,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "heart",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 43,
+                        "y": 0
+                      },
+                      {
+                        "x": 43,
+                        "y": 36
+                      },
+                      {
+                        "x": 0,
+                        "y": 36
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "7dcab69a6f649e686d80ac37d60d80e382638df4e2306f422dab47e3d266044d",
+      "name": "Health_Bar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 16,
+        "MaxValue": 16,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png2",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Green Fill Bar.png3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Green Fill Bar.png2",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "16 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "16 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 16,
+            "color": "0;0;0"
+          }
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "vision",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite401",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 128.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 68
+                      },
+                      {
+                        "x": 103,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 192.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 264.5,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 307,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 357.5,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 392.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 400,
+                        "y": 174
+                      },
+                      {
+                        "x": 400,
+                        "y": 230
+                      },
+                      {
+                        "x": 382.5,
+                        "y": 283.5
+                      },
+                      {
+                        "x": 351,
+                        "y": 334.5
+                      },
+                      {
+                        "x": 284,
+                        "y": 384.5
+                      },
+                      {
+                        "x": 214,
+                        "y": 400
+                      },
+                      {
+                        "x": 134,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 58,
+                        "y": 352
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 275.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 202
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "4e2421c7fbcc2b0a4e0abe7c562504cfa4913eb94d22533d878ed342c0e65e29",
+      "name": "Apple5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Apple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 3,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "7dcab69a6f649e686d80ac37d60d80e382638df4e2306f422dab47e3d266044d",
+      "name": "Health_Bar2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 16,
+        "MaxValue": 16,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png2",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Green Fill Bar.png3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Green Fill Bar.png2",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "16 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "16 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 16,
+            "color": "0;0;0"
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5575,6 +6379,12 @@
         "objectName": "HitBox"
       },
       {
+        "objectName": "Health_Bar"
+      },
+      {
+        "objectName": "Health_Bar2"
+      },
+      {
         "objectName": "PlayerSkin2"
       },
       {
@@ -5585,6 +6395,9 @@
       },
       {
         "objectName": "dirt_top"
+      },
+      {
+        "objectName": "heart"
       },
       {
         "objectName": "dirtright"
@@ -5603,14 +6416,201 @@
       },
       {
         "objectName": "bush"
+      },
+      {
+        "objectName": "bullet"
+      },
+      {
+        "objectName": "monster"
+      },
+      {
+        "objectName": "vision"
+      },
+      {
+        "objectName": "Apple5"
       }
     ]
   },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "CollisionObject",
+            "=",
+            "CollisionObject.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Collision\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HitBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "vision"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Health_Bar",
+            "=",
+            "16",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PlayerSkin0",
+                "HitBox.X()",
+                "HitBox.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PlayerSkin0",
+                "=",
+                "10000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PlayerSkin1",
+                "HitBox.X()",
+                "HitBox.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PlayerSkin1",
+                "=",
+                "10000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PlayerSkin2",
+                "HitBox.X()",
+                "HitBox.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PlayerSkin2",
+                "=",
+                "10000"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -5635,6 +6635,765 @@
         "textR": 0
       },
       "comment": "Larvae fight assets (trees/grass): https://clockworkraven.itch.io/raven-fantasy-pixel-art-tileset-green-forest"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "PlayerMovement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Standing_Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Standing_Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin1",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin1",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin0",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin1",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PlayerSkin1",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LastRightPressed",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement",
+                "\"Down\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Animation",
+                "=",
+                "\"Down\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Chancellor Mechanics",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "vision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "monster",
+                "PlayerSkins.X()",
+                "PlayerSkins.Y()",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "vision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "monster",
+                "FireBullet",
+                "monster.X()",
+                "monster.Y()",
+                "bullet",
+                "PlayerSkins.X()",
+                "PlayerSkins.Y ()",
+                "250",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "vision",
+                "monster",
+                "vision.Angle()",
+                "32"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "fight!!",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "bullet",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hit ",
+                "",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bullet"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "x"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "FireBullet",
+                "PlayerSkins.X()",
+                "PlayerSkins.Y()",
+                "Apple5",
+                "CursorX()",
+                "CursorY()",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Apple5",
+                "monster",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "monster",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar2",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Zombiue hit",
+                "",
+                "15",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Apple5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "monster",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "-",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hit ",
+                "",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "Health_Bar2",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "monster",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
+                "",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Health_Bar2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -5714,6 +7473,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -5744,6 +7536,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",
