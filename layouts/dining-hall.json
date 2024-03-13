@@ -8213,7 +8213,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Xander Armatis drew the Zomie and EcoFriendlyFork"
+      "comment": "Xander Armatis drew the Zomie throwing forks and EcoFriendlyFork"
     },
     {
       "colorB": 228,
@@ -8643,6 +8643,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Attacking zombies pack: https://ironnbutterfly.itch.io/zombie-sprite\niron: https://stock.adobe.com/images/an-8-bit-retro-styled-pixel-art-illustration-of-an-iron-bar/519493103?asset_id=519493103"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

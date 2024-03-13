@@ -15535,6 +15535,33 @@
         "name": "NewSprite393",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "woodbuilding.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "woodbuilding.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "greybuildingbaytree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "greybuildingbaytree.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "iveta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "iveta.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

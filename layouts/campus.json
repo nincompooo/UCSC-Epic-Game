@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.8471975907683088,
+    "zoomFactor": 0.39510669392231174,
     "windowMask": false
   },
   "objectsGroups": [
@@ -117,6 +117,15 @@
         },
         {
           "name": "baytree_bookstore"
+        },
+        {
+          "name": "woodbuilding"
+        },
+        {
+          "name": "greybuilding"
+        },
+        {
+          "name": "iveta"
         }
       ]
     }
@@ -2478,8 +2487,8 @@
       "name": "slimeball",
       "persistentUuid": "233569e5-be88-4dfd-8568-04fa5731a4a9",
       "width": 12,
-      "x": 255,
-      "y": -580,
+      "x": 315,
+      "y": -428,
       "zOrder": 2174,
       "numberProperties": [],
       "stringProperties": [],
@@ -2493,8 +2502,8 @@
       "name": "slimepickup",
       "persistentUuid": "69315825-0015-4fb8-8e11-8e902e4df838",
       "width": 0,
-      "x": 162,
-      "y": -617,
+      "x": 208,
+      "y": -473,
       "zOrder": 2175,
       "numberProperties": [],
       "stringProperties": [],
@@ -3832,14 +3841,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
       "layer": "",
       "name": "rock",
       "persistentUuid": "e024481e-d45a-4ade-88a9-f619d2412907",
-      "width": 0,
-      "x": 332,
-      "y": -278,
+      "width": 126,
+      "x": 342,
+      "y": -213,
       "zOrder": 2205,
       "numberProperties": [],
       "stringProperties": [],
@@ -4177,14 +4187,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
       "layer": "",
       "name": "baytree_bookstore",
       "persistentUuid": "75240549-39a6-4eea-9a09-9744b686084b",
-      "width": 0,
-      "x": 811,
-      "y": -640,
+      "width": 227,
+      "x": 514,
+      "y": -396,
       "zOrder": 2207,
       "numberProperties": [],
       "stringProperties": [],
@@ -4231,6 +4242,86 @@
       "x": 134,
       "y": 317,
       "zOrder": 2128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 223,
+      "layer": "",
+      "name": "woodbuilding",
+      "persistentUuid": "5305ea55-89b9-4ed4-96e6-f22f28801ca3",
+      "width": 203,
+      "x": 47,
+      "y": -277,
+      "zOrder": 2210,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 185,
+      "layer": "",
+      "name": "iveta",
+      "persistentUuid": "1aa0747e-4774-43f3-88ec-94281833969a",
+      "width": 182,
+      "x": 419,
+      "y": -580,
+      "zOrder": 2211,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 167,
+      "layer": "",
+      "name": "greybuilding",
+      "persistentUuid": "742bf45a-8873-4599-bc68-0fe12e06471c",
+      "width": 216,
+      "x": 551,
+      "y": -204,
+      "zOrder": 2212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "layer": "",
+      "name": "woodbuilding",
+      "persistentUuid": "aa474648-b774-436a-8885-a49615e738a9",
+      "width": 216,
+      "x": -20,
+      "y": -507,
+      "zOrder": 2213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "layer": "",
+      "name": "woodbuilding",
+      "persistentUuid": "81965958-0b4e-4492-b117-631e0d549569",
+      "width": 216,
+      "x": -137,
+      "y": -284,
+      "zOrder": 2213,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5961,7 +6052,7 @@
         }
       ],
       "content": {
-        "text": "Press X to Annihlate",
+        "text": "Press X to Annihilate",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -11602,6 +11693,186 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "woodbuilding",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "woodbuilding.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 7
+                      },
+                      {
+                        "x": 382,
+                        "y": 7
+                      },
+                      {
+                        "x": 382,
+                        "y": 384
+                      },
+                      {
+                        "x": 35,
+                        "y": 384
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "greybuilding",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "greybuildingbaytree.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 7
+                      },
+                      {
+                        "x": 349,
+                        "y": 7
+                      },
+                      {
+                        "x": 349,
+                        "y": 384
+                      },
+                      {
+                        "x": 2,
+                        "y": 384
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "iveta",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "iveta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 7
+                      },
+                      {
+                        "x": 349,
+                        "y": 7
+                      },
+                      {
+                        "x": 349,
+                        "y": 384
+                      },
+                      {
+                        "x": 2,
+                        "y": 384
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11710,6 +11981,15 @@
           },
           {
             "objectName": "rock"
+          },
+          {
+            "objectName": "woodbuilding"
+          },
+          {
+            "objectName": "greybuilding"
+          },
+          {
+            "objectName": "iveta"
           }
         ]
       },
@@ -13046,6 +13326,18 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Trees/Grass pack: https://cupnooble.itch.io/sprout-lands-asset-pack"
     }
   ],
   "layers": [
