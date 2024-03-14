@@ -15684,8 +15684,24 @@
         "disablePreload": false,
         "file": "assets/WHEN DAT CODE WORK.json",
         "kind": "json",
-        "metadata": "{\"extension\":\".json\"}",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/WHEN DAT CODE WORK.json\"}",
         "name": "WHEN DAT CODE WORK",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/WHEN DAT CODE WORK2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/WHEN DAT CODE WORK2.json\"}",
+        "name": "WHEN DAT CODE WORK2",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Victory is Among Us.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "Victory is Among Us",
         "userAdded": true
       }
     ],
@@ -15802,7 +15818,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/chancellor-death"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/beforechancellor"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/victory"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

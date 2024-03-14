@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "BeforeChancellor",
-  "name": "BeforeChancellor",
+  "mangledName": "Victory",
+  "name": "Victory",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -870,7 +870,7 @@
           },
           "parameters": [
             "",
-            "WHEN DAT CODE WORK2"
+            "Victory is Among Us"
           ]
         },
         {
@@ -1052,17 +1052,7 @@
           "parameters": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Chancellor\""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
