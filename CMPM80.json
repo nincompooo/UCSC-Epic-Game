@@ -15679,6 +15679,14 @@
         "name": "NewSprite401",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/WHEN DAT CODE WORK.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "WHEN DAT CODE WORK",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -15791,6 +15799,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/death"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/beforechancellor"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
