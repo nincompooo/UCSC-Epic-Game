@@ -1104,7 +1104,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1113,87 +1112,62 @@
           },
           "parameters": [
             ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "dialogue.mp3",
-            "",
-            "30",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "e"
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "VarGlobal"
           },
-          "parameters": []
+          "parameters": [
+            "scene",
+            "=",
+            "5"
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Center",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
             "",
-            "dialogue.mp3",
+            "A Quest is Bequeffed"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
             "",
-            "30",
-            ""
+            " \"typewriter\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"Victory\""
           ]
         }
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "dialogue.mp3",
-            "1",
-            "",
-            "30",
-            "1.5"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1246,43 +1220,6 @@
           "parameters": [
             "",
             "1"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "e"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::HasClippedTextScrollingCompleted"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "dialogue.mp3",
-            "1",
-            "yes",
-            "30",
-            "1.5"
           ]
         }
       ]
@@ -1614,6 +1551,59 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "scene",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueRunning"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "E2",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"The End\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1628,6 +1618,16 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "scene",
+            "!=",
+            "5"
+          ]
+        },
         {
           "type": {
             "value": "DepartScene"
@@ -1646,14 +1646,14 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "quest_music.mp3",
-            "yes",
+            "4",
             "20",
-            ""
+            "30"
           ]
         }
       ]
@@ -1710,6 +1710,50 @@
         "textR": 0
       },
       "comment": "Dialogue audio: https://www.reddit.com/r/godot/comments/gqyhal/i_created_a_gdscript_animal_crossing_style/"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "scene",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Until  Sad Instrumental Music (8-bit).mp3",
+            "5",
+            "",
+            "30",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

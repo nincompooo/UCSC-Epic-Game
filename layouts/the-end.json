@@ -1,0 +1,288 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "The_32End",
+  "name": "The End",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.47017696576752915,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 972,
+      "layer": "",
+      "name": "background",
+      "persistentUuid": "0b40d079-9ec2-4cbb-bb04-8706453826d6",
+      "width": 1079,
+      "x": -45,
+      "y": -44,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "",
+      "name": "real_shoot",
+      "persistentUuid": "e12e37d1-229a-428b-944e-34a3f274b41d",
+      "width": 532,
+      "x": 253,
+      "y": 289,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "real_shoot2",
+      "persistentUuid": "14fe0218-521d-44fc-900b-81d16a4f3952",
+      "width": 0,
+      "x": 408,
+      "y": 393,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "background",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "real_shoot",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "The End.",
+        "opacity": 255,
+        "scale": 5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "real_shoot2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "By:\nNina Carrillo\nXander Armatis \nChiara Bonaccorsi",
+        "opacity": 255,
+        "scale": 0.75,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "real_shoot"
+      },
+      {
+        "objectName": "real_shoot2"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "sad music: https://www.youtube.com/watch?v=Ieko8-aRvqw&ab_channel=MusicOfWhen"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Until  Sad Instrumental Music (8-bit).mp3",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "BitmapText_AutoTyping",
+      "type": "AutoTyping::BitmapText_AutoTyping"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

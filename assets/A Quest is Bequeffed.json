@@ -38,5 +38,15 @@
 			"y": -228
 		},
 		"colorID": 0
+	},
+	{
+		"title": "Victory",
+		"tags": "",
+		"body": "You’re confused, aren’t you?\nThe maggots… Larvae… was once my friend, a companion even. \nWe protected this forest together. But… Larvae wanted more power than me. They challenged my title, questioned my strength. I turned them away and banished them from the forest. \nOut of spite, Larvae created a skin suit and pretended to be human - building over what we once protected… together\nEvery couple of years they changed their skin suit to maintain their power.\nAll of the Chancellors that ruled over UCSC have been all one in the same… hurting us… for that reason. \nBut you, my child, have freed us. Not only the animals of the forest, but the students as well. \nNow, a new person in power can be installed - one that protects the campus, cares for their students, and makes the world a better place. \nThank you.",
+		"position": {
+			"x": -470,
+			"y": 36
+		},
+		"colorID": 0
 	}
 ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.502420630462494,
+    "zoomFactor": 0.4701769657675303,
     "windowMask": false
   },
   "objectsGroups": [
@@ -885,6 +885,115 @@
       "x": 434,
       "y": 213,
       "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "real_shoot",
+      "persistentUuid": "0f533567-4bc3-487c-bfa2-d8c51b447bd2",
+      "width": 0,
+      "x": 213,
+      "y": 750,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "e7126fa4-47ea-4d41-8296-f80ea43a07a1",
+      "width": 0,
+      "x": 33,
+      "y": 824,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "ea831cf5-0198-4018-9979-59437463daa5",
+      "width": 0,
+      "x": 102,
+      "y": 834,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "695e07d7-49b7-44af-8c26-1dda2e7b128e",
+      "width": 1004,
+      "x": -1,
+      "y": 780,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "1ad0b3d0-d96e-4bcc-89f9-c7bb0dd679aa",
+      "width": 1004,
+      "x": 9,
+      "y": -45,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "e270d5d1-55a9-4ace-adb6-1f3eea31867d",
+      "width": 1004,
+      "x": -467,
+      "y": 379,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "",
+      "name": "CollisionDetect",
+      "persistentUuid": "1319b376-ee65-4215-b8c5-b96a3332128a",
+      "width": 1004,
+      "x": 498,
+      "y": 299,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6352,6 +6461,243 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "real_shoot",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "Aim using the cursor and press X to fire",
+        "opacity": 255,
+        "scale": 1.25,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "CollisionDetect",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Enemy_Spawn_Location.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HolyEcoFriendlyFork",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Fork Throw",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fork Throw5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 51
+                      },
+                      {
+                        "x": 22,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fork Throw6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 51
+                      },
+                      {
+                        "x": 22,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fork Throw7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 51
+                      },
+                      {
+                        "x": 22,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fork Throw8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 4
+                      },
+                      {
+                        "x": 39,
+                        "y": 51
+                      },
+                      {
+                        "x": 22,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6359,6 +6705,15 @@
     "children": [
       {
         "objectName": "plaingrass"
+      },
+      {
+        "objectName": "real_shoot"
+      },
+      {
+        "objectName": "CollisionDetect"
+      },
+      {
+        "objectName": "HolyEcoFriendlyFork"
       },
       {
         "objectName": "dirt"
@@ -6489,6 +6844,14 @@
             "=",
             "16",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CollisionDetect"
           ]
         }
       ],
@@ -6622,18 +6985,6 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
       "comment": "Larvae fight assets (trees/grass): https://clockworkraven.itch.io/raven-fantasy-pixel-art-tileset-green-forest"
     },
     {
@@ -6641,7 +6992,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6999,6 +7349,22 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "CollisionDetect",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -7184,7 +7550,7 @@
                 "FireBullet",
                 "PlayerSkins.X()",
                 "PlayerSkins.Y()",
-                "Apple5",
+                "HolyEcoFriendlyFork",
                 "CursorX()",
                 "CursorY()",
                 "1000",
@@ -7201,7 +7567,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Apple5",
+                "HolyEcoFriendlyFork",
                 "monster",
                 "",
                 "",
@@ -7246,7 +7612,7 @@
                 "",
                 "Zombiue hit",
                 "",
-                "15",
+                "5",
                 ""
               ]
             },
@@ -7255,7 +7621,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Apple5"
+                "HolyEcoFriendlyFork"
               ]
             }
           ]
@@ -7313,7 +7679,7 @@
                 "",
                 "Hit ",
                 "",
-                "1",
+                "5",
                 ""
               ]
             }
@@ -7352,18 +7718,6 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
-                "",
-                "40",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -7387,7 +7741,7 @@
               "parameters": [
                 "scene",
                 "=",
-                "6"
+                "5"
               ]
             },
             {
@@ -7396,7 +7750,7 @@
               },
               "parameters": [
                 "",
-                "\"Victory\""
+                "\"Quest\""
               ]
             }
           ]
@@ -7419,11 +7773,21 @@
           "actions": [
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "scene",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"Chancellor Death\""
+                "\"Quest\""
               ]
             }
           ]
@@ -7504,9 +7868,61 @@
       ]
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Music",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music: https://www.youtube.com/watch?v=uIfD2BKaD2k&ab_channel=EpicMusicJourney"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "final boss music.mp3",
+            "6",
+            "",
+            "25",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -7627,6 +8043,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "BitmapText_AutoTyping",
+      "type": "AutoTyping::BitmapText_AutoTyping"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -7661,6 +8081,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
