@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6337075294398796,
+    "zoomFactor": 0.7993008418048264,
     "windowMask": false
   },
   "objectsGroups": [
@@ -251,54 +251,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
-      "layer": "",
-      "name": "TableRoundGray",
-      "persistentUuid": "9820b95f-7d27-4911-899c-734a73e012a6",
-      "width": 112,
-      "x": 619,
-      "y": 705,
-      "zOrder": 2121,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 93,
-      "layer": "",
-      "name": "TableRoundGray",
-      "persistentUuid": "afd15ab9-9d1f-40d6-8f71-77299bff025f",
-      "width": 130,
-      "x": 810,
-      "y": 701,
-      "zOrder": 2124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 93,
-      "layer": "",
-      "name": "TableRoundGray",
-      "persistentUuid": "90ba0e59-4602-440d-bcdc-3eb723411ca7",
-      "width": 125,
-      "x": 205,
-      "y": 708,
-      "zOrder": 2126,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 973,
       "layer": "Collision",
       "name": "CollisionDetect",
@@ -378,46 +330,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 47,
+      "height": 176,
       "layer": "",
       "name": "CollisionDetect",
       "persistentUuid": "2c20a642-eb13-4b40-b1a4-f9606f19a9a4",
-      "width": 114,
-      "x": 209,
-      "y": 730,
+      "width": 206,
+      "x": 421,
+      "y": 637,
       "zOrder": 2133,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 37,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "31c56feb-0026-41cf-981f-49dd8a121c15",
-      "width": 102,
-      "x": 625,
-      "y": 736,
-      "zOrder": 2135,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 42,
-      "layer": "",
-      "name": "CollisionDetect",
-      "persistentUuid": "08a76860-029f-4de8-808e-7faa73e37be1",
-      "width": 118,
-      "x": 815,
-      "y": 729,
-      "zOrder": 2136,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -488,98 +408,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "name": "Apple2",
-      "persistentUuid": "6d8e1f2a-59fb-4ccf-a1ff-3b375771e807",
-      "width": 0,
-      "x": 197,
-      "y": 657,
-      "zOrder": 2150,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 145,
-      "layer": "",
-      "name": "Apple3",
-      "persistentUuid": "34386c42-4f1c-4674-b10a-44d9e6d5b0ac",
-      "width": 147,
-      "x": 591,
-      "y": 646,
-      "zOrder": 2151,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Apple4",
-      "persistentUuid": "aa0dcd3b-7fe2-48e5-9321-7420e94779da",
-      "width": 0,
-      "x": 802,
-      "y": 650,
-      "zOrder": 2152,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 75,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "cecdee89-b6fd-40cd-b656-7026afcf1ff9",
-      "width": 74,
-      "x": 196,
-      "y": 730,
-      "zOrder": 2154,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "P_",
-      "persistentUuid": "5a72d72b-6e34-4d4e-ba90-24a4b2cf3e32",
-      "width": 0,
-      "x": 641,
-      "y": 724,
-      "zOrder": 2155,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "q",
-      "persistentUuid": "d293cbbc-00e5-4bae-aadd-ae11dd306365",
-      "width": 0,
-      "x": 819,
-      "y": 723,
-      "zOrder": 2156,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "UI",
       "name": "Health_Bar2",
       "persistentUuid": "50b6fdcd-6c48-411b-9b97-c4932bd39f95",
@@ -614,8 +442,8 @@
       "name": "HolyStick",
       "persistentUuid": "437d6871-d5f4-4c21-a109-9dbfba10ed22",
       "width": 0,
-      "x": 879,
-      "y": 133,
+      "x": 474,
+      "y": 115,
       "zOrder": 2159,
       "numberProperties": [],
       "stringProperties": [],
@@ -629,7 +457,7 @@
       "name": "Stick_Pickup",
       "persistentUuid": "a1ab898e-9556-4b6b-bcbc-d7ad6d697f3c",
       "width": 0,
-      "x": 602,
+      "x": 376,
       "y": 81,
       "zOrder": 2160,
       "numberProperties": [],
@@ -644,8 +472,8 @@
       "name": "ApplePickup",
       "persistentUuid": "bc9dcd19-91dd-4d95-8076-01e385705e1a",
       "width": 0,
-      "x": 32,
-      "y": 642,
+      "x": 363,
+      "y": 646,
       "zOrder": 2161,
       "numberProperties": [],
       "stringProperties": [],
@@ -659,8 +487,8 @@
       "name": "Shoot",
       "persistentUuid": "b2639714-020c-464a-89ff-7f98c82d4807",
       "width": 0,
-      "x": 56,
-      "y": 497,
+      "x": 339,
+      "y": 645,
       "zOrder": 2162,
       "numberProperties": [],
       "stringProperties": [],
@@ -710,6 +538,37 @@
       "x": -523,
       "y": 281,
       "zOrder": 2167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TableSquareBrown",
+      "persistentUuid": "446da9a5-d058-4f02-9a7f-79604017ed70",
+      "width": 0,
+      "x": 450,
+      "y": 692,
+      "zOrder": 2168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 169,
+      "layer": "",
+      "name": "Apple",
+      "persistentUuid": "0cff6c4e-a2c7-48f0-811e-98bb72d34abb",
+      "width": 169,
+      "x": 424,
+      "y": 638,
+      "zOrder": 2169,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -799,6 +658,12 @@
           "name": "StepSound",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "apples",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -940,67 +805,6 @@
                       {
                         "x": 0,
                         "y": 93
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "4e2421c7fbcc2b0a4e0abe7c562504cfa4913eb94d22533d878ed342c0e65e29",
-      "name": "Apple",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Apple",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Apple2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 43,
-                        "y": 66
-                      },
-                      {
-                        "x": 80,
-                        "y": 66
-                      },
-                      {
-                        "x": 80,
-                        "y": 79
-                      },
-                      {
-                        "x": 43,
-                        "y": 79
                       }
                     ]
                   ]
@@ -5437,10 +5241,17 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4e2421c7fbcc2b0a4e0abe7c562504cfa4913eb94d22533d878ed342c0e65e29",
-      "name": "Apple2",
+      "name": "Apple",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "apples",
+          "type": "number",
+          "value": 5
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -6264,7 +6075,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press the keys to pickup the apples",
+      "string": "Press the Q to pickup the apples",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -6287,7 +6098,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press the keys to pickup the apples",
+        "text": "Press the Q to pickup the apples",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
@@ -7364,6 +7175,607 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "explosion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite402",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite403",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite404",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite405",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite406",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite407",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite408",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite409",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite410",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite411",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite412",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite413",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite414",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite415",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite416",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite417",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 6,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7392,6 +7804,9 @@
           },
           {
             "objectName": "ObjectBackground"
+          },
+          {
+            "objectName": "explosion"
           },
           {
             "objectName": "minizombies"
@@ -7469,7 +7884,7 @@
             "objectName": "Apple3"
           },
           {
-            "objectName": "Apple2"
+            "objectName": "Apple"
           },
           {
             "objectName": "NewTiledSprite"
@@ -7479,9 +7894,6 @@
           },
           {
             "objectName": "GetApp"
-          },
-          {
-            "objectName": "Apple"
           },
           {
             "objectName": "Apple4"
@@ -8136,6 +8548,16 @@
             "",
             "x"
           ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "HitBox",
+            "apples",
+            "True"
+          ]
         }
       ],
       "actions": [
@@ -8152,52 +8574,6 @@
             "CursorX()",
             "CursorY()",
             "1000",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "APPPLES HAHAHAHAHAH",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"apple text\"",
-            ">=",
-            "10"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "ApplePickup"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Shoot",
             ""
           ]
         }
@@ -8223,505 +8599,564 @@
       "name": "Zombie",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "ObjectBackground",
+                "ObjectSpawner",
+                "minizombies",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "minizombies",
+                "PlayerSkins",
+                "50",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "minizombies",
+                "PlayerSkins",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "minizombies",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "minizombies",
+                "PlayerSkins",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "minizombies",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "minizombies",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hit ",
+                "",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "minizombies",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ZombieBullet\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "BlueShirt",
+                "FireBullet",
+                "BlueShirt.X()",
+                "BlueShirt.Y()",
+                "EcoFriendlyFork",
+                "PlayerSkins.CenterX()",
+                "PlayerSkins.CenterY()",
+                "300",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "EcoFriendlyFork",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hit ",
+                "",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EcoFriendlyFork"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "minizombies",
+                "EcoFriendlyFork",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "minizombies2",
+                "minizombies.CenterX()",
+                "minizombies.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "minizombies",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hit ",
+                "",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sounds\\BossFight.mp3",
+                "yes",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Apple5",
+                "minizombies",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "minizombies",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "minizombies2",
+                "minizombies.CenterX()",
+                "minizombies.CenterY()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "minizombies2",
+                "Animation",
+                "=",
+                "\"dead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "minizombies2",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "minizombies2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Apple5",
+                "EcoFriendlyFork",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Apple5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EcoFriendlyFork",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Attacking zombies pack: https://ironnbutterfly.itch.io/zombie-sprite\niron: https://stock.adobe.com/images/an-8-bit-retro-styled-pixel-art-illustration-of-an-iron-bar/519493103?asset_id=519493103"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Apple5",
+                "BlueShirt",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "BlueShirt",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Health_Bar2",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Zombiue hit",
+                "",
+                "15",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Apple5"
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-          },
-          "parameters": [
-            "ObjectBackground",
-            "ObjectSpawner",
-            "minizombies",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "AddForceVers"
-          },
-          "parameters": [
-            "minizombies",
-            "PlayerSkins",
-            "50",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "EstTourne"
-          },
-          "parameters": [
-            "minizombies",
-            "PlayerSkins",
-            "90",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FlippableCapability::FlippableBehavior::FlipX"
-          },
-          "parameters": [
-            "minizombies",
-            "Flippable",
-            "no"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "EstTourne"
-          },
-          "parameters": [
-            "minizombies",
-            "PlayerSkins",
-            "90",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FlippableCapability::FlippableBehavior::FlipX"
-          },
-          "parameters": [
-            "minizombies",
-            "Flippable",
-            "yes"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "PlayerSkins",
-            "minizombies",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "PlayerSkins",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Health_Bar",
-            "-",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Hit ",
-            "",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "minizombies",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"ZombieBullet\"",
-            ">=",
-            "10"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
-          },
-          "parameters": [
-            "BlueShirt",
-            "FireBullet",
-            "BlueShirt.X()",
-            "BlueShirt.Y()",
-            "EcoFriendlyFork",
-            "PlayerSkins.X()",
-            "PlayerSkins.Y()",
-            "300",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "PlayerSkins",
-            "EcoFriendlyFork",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "PlayerSkins",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Health_Bar",
-            "-",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Hit ",
-            "",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "EcoFriendlyFork"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Sounds\\BossFight.mp3",
-            "yes",
-            "1",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Apple5",
-            "minizombies",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "minizombies",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "minizombies2",
-            "minizombies.CenterX()",
-            "minizombies.CenterY()",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Name"
-          },
-          "parameters": [
-            "minizombies2",
-            "Animation",
-            "=",
-            "\"dead\""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-          },
-          "parameters": [
-            "minizombies2",
-            "Animation"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "minizombies2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Apple5",
-            "EcoFriendlyFork",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Apple5",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EcoFriendlyFork",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Attacking zombies pack: https://ironnbutterfly.itch.io/zombie-sprite\niron: https://stock.adobe.com/images/an-8-bit-retro-styled-pixel-art-illustration-of-an-iron-bar/519493103?asset_id=519493103"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Apple5",
-            "BlueShirt",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "BlueShirt",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Health_Bar2",
-            "-",
-            "1",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Zombiue hit",
-            "",
-            "15",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Apple5"
-          ]
-        }
-      ]
     },
     {
       "colorB": 228,
@@ -8731,108 +9166,62 @@
       "name": "APPLES",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "q"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Apple",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Shoot",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ApplePickup",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "HitBox",
+                "apples",
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "k"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Apple",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "o"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Apple2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "p"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Apple3",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "q"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Apple4",
-            ""
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -8849,6 +9238,69 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "explosion",
+            "Animation",
+            "=",
+            "\"NewSprite2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "explosion",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HolyStick",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Stick_Pickup",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "explosion",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Shoot",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -8872,6 +9324,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "explosion",
+            "BlueShirt.CenterX()",
+            "BlueShirt.CenterY()",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "RemoveTimer"
@@ -8899,24 +9363,6 @@
             "cc94310476cdc147a80a0bbd9e4f3b46130acb555d83eed609e3a6f971d5b32e_Quick Metal Riff 1.aac",
             "",
             "40",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Stick_Pickup",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "HolyStick",
             ""
           ]
         },
@@ -8980,11 +9426,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "scene",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
             "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"BeforeChancellor\""
+            "\"Quest\""
           ]
         },
         {
@@ -9019,11 +9475,21 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "scene",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
             "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Death\""
+            "\"Quest\""
           ]
         }
       ]
