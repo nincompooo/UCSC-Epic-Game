@@ -8300,7 +8300,7 @@
         "alwaysLoaded": false,
         "file": "assets/Purple Button With Shadow_Idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Purple Button With Shadow_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Purple Button With Shadow_Idle.png",
         "smoothed": true,
         "userAdded": false,
@@ -8313,7 +8313,7 @@
         "alwaysLoaded": false,
         "file": "assets/Purple Button With Shadow_Pressed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Purple Button With Shadow_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Purple Button With Shadow_Pressed.png",
         "smoothed": true,
         "userAdded": false,
@@ -8652,7 +8652,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite29.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\"}",
         "name": "NewSprite17",
         "smoothed": true,
         "userAdded": true
@@ -16138,6 +16138,54 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite430",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Hovered.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Purple Button With Shadow_Hovered.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/iveta.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "iveta",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "video.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "video.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "dialogue_noise.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dialogue_noise.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "dialogue.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dialogue.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],

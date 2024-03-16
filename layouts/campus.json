@@ -13479,7 +13479,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "iveta.png",
+                  "image": "iveta",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

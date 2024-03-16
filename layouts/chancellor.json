@@ -7014,20 +7014,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PlayerSkins",
-                "vision",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -7392,25 +7379,17 @@
                 "",
                 "\"Wait for end Scene\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "",
-                "\"Wait for end Scene\"",
-                ">=",
-                "5"
+                "scene",
+                "=",
+                "6"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "PushScene"
