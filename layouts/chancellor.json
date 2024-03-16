@@ -6992,6 +6992,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PlayerMovement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7374,6 +7375,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Chancellor Mechanics",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7538,6 +7540,12 @@
                 "",
                 "x"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -7554,6 +7562,18 @@
                 "CursorX()",
                 "CursorY()",
                 "1000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Zombiue hit",
+                "",
+                "60",
                 ""
               ]
             }
@@ -7835,7 +7855,7 @@
             "90fce0e16aeed4a3ae9f90df580ea430bd0dca9630a4b9376672a1698138d887_MetalV1_Walk_06.wav",
             "2",
             "yes",
-            "20",
+            "30",
             ""
           ]
         }
