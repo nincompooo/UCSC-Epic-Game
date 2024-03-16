@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7993008418048264,
+    "zoomFactor": 0.5368754921931784,
     "windowMask": false
   },
   "objectsGroups": [
@@ -235,13 +235,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 461,
+      "height": 537,
       "layer": "",
       "name": "NewTiledSprite2",
       "persistentUuid": "5759876f-6524-4e82-a15d-801e4bfdc486",
-      "width": 1006,
-      "x": 31,
-      "y": 69,
+      "width": 1128,
+      "x": -110,
+      "y": 68,
       "zOrder": 2119,
       "numberProperties": [],
       "stringProperties": [],
@@ -287,8 +287,8 @@
       "name": "CollisionDetect",
       "persistentUuid": "32d5125a-62fa-4db1-bfa1-b83dfe822726",
       "width": 1071,
-      "x": -15,
-      "y": 797,
+      "x": -14,
+      "y": 604,
       "zOrder": 2132,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,7 +348,7 @@
       "depth": 1,
       "height": 118,
       "layer": "",
-      "name": "BlueShirt",
+      "name": "GreenShirt",
       "persistentUuid": "87e90886-6575-4ca9-921f-37409c132d23",
       "width": 127,
       "x": 443,
@@ -439,11 +439,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "HolyStick",
+      "name": "EcoFork",
       "persistentUuid": "437d6871-d5f4-4c21-a109-9dbfba10ed22",
       "width": 0,
-      "x": 474,
-      "y": 115,
+      "x": 478,
+      "y": 114,
       "zOrder": 2159,
       "numberProperties": [],
       "stringProperties": [],
@@ -460,36 +460,6 @@
       "x": 376,
       "y": 81,
       "zOrder": 2160,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "ApplePickup",
-      "persistentUuid": "bc9dcd19-91dd-4d95-8076-01e385705e1a",
-      "width": 0,
-      "x": 363,
-      "y": 646,
-      "zOrder": 2161,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Shoot",
-      "persistentUuid": "b2639714-020c-464a-89ff-7f98c82d4807",
-      "width": 0,
-      "x": 339,
-      "y": 645,
-      "zOrder": 2162,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -544,14 +514,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
       "layer": "",
       "name": "TableSquareBrown",
       "persistentUuid": "446da9a5-d058-4f02-9a7f-79604017ed70",
-      "width": 0,
-      "x": 450,
-      "y": 692,
+      "width": 171,
+      "x": 418,
+      "y": 622,
       "zOrder": 2168,
       "numberProperties": [],
       "stringProperties": [],
@@ -561,14 +532,60 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 169,
+      "height": 212,
       "layer": "",
       "name": "Apple",
       "persistentUuid": "0cff6c4e-a2c7-48f0-811e-98bb72d34abb",
-      "width": 169,
-      "x": 424,
-      "y": 638,
+      "width": 190,
+      "x": 395,
+      "y": 556,
       "zOrder": 2169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 17,
+      "layer": "",
+      "name": "stick_pickup",
+      "persistentUuid": "c742e038-f668-4248-9a65-b674fef02ba2",
+      "width": 381,
+      "x": 327,
+      "y": 95,
+      "zOrder": 2170,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "real_shoot",
+      "persistentUuid": "5faa5d53-1ab8-469c-b3f3-6e69924f1a0d",
+      "width": 0,
+      "x": 203,
+      "y": 578,
+      "zOrder": 2171,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "real_apple_pickup",
+      "persistentUuid": "2033147f-c5b2-4a23-9265-40e16e64a649",
+      "width": 0,
+      "x": 291,
+      "y": 575,
+      "zOrder": 2172,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -579,7 +596,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
-      "texture": "Floor Tile",
+      "texture": "Floor Tile3",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -597,16 +614,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "table square brown",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "table square brown.png",
+                  "image": "table square brown2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -626,16 +644,16 @@
                         "y": 0
                       },
                       {
-                        "x": 135,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 135,
-                        "y": 111
+                        "x": 64,
+                        "y": 53
                       },
                       {
                         "x": 0,
-                        "y": 111
+                        "y": 53
                       }
                     ]
                   ]
@@ -4782,7 +4800,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "BlueShirt",
+      "name": "GreenShirt",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -5965,7 +5983,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "HolyStick",
+      "name": "EcoFork",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5983,7 +6001,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Stick",
+                  "image": "Stick2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5999,20 +6017,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 11
+                        "x": 22,
+                        "y": 4
                       },
                       {
-                        "x": 43,
-                        "y": 11
+                        "x": 39,
+                        "y": 4
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 39,
+                        "y": 51
                       },
                       {
-                        "x": 19,
-                        "y": 38
+                        "x": 22,
+                        "y": 51
                       }
                     ]
                   ]
@@ -6027,47 +6045,6 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Stick_Pickup",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Press T to pickup the Holy Stick",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Press T to pickup the Holy Stick",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "ApplePickup",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -6075,7 +6052,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press the Q to pickup the apples",
+      "string": "Press Q to pickup the apples",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -6098,7 +6075,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press the Q to pickup the apples",
+        "text": "Press Q to pickup the apples",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
@@ -6884,7 +6861,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead17",
+                  "image": "dead33",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6920,7 +6897,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead18",
+                  "image": "dead34",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6956,7 +6933,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead19",
+                  "image": "dead35",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6992,7 +6969,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead20",
+                  "image": "dead36",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7028,7 +7005,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead21",
+                  "image": "dead37",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7064,7 +7041,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead22",
+                  "image": "dead38",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7100,7 +7077,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead23",
+                  "image": "dead39",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7136,7 +7113,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead24",
+                  "image": "dead40",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7776,6 +7753,148 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "stick_pickup",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "Press T to pick up the Eco Friendly Fork",
+        "opacity": 255,
+        "scale": 0.75,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "real_shoot",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "Aim using the cursor and press X to fire",
+        "opacity": 255,
+        "scale": 1.25,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "real_apple_pickup",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "Press Q to pickup the apples",
+        "opacity": 255,
+        "scale": 1.25,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "textback",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite431",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 21
+                      },
+                      {
+                        "x": 59,
+                        "y": 21
+                      },
+                      {
+                        "x": 59,
+                        "y": 33
+                      },
+                      {
+                        "x": 6,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7800,7 +7919,7 @@
             "objectName": "NewSprite3"
           },
           {
-            "objectName": "BlueShirt"
+            "objectName": "GreenShirt"
           },
           {
             "objectName": "ObjectBackground"
@@ -7840,7 +7959,16 @@
             "folderName": "dialogue",
             "children": [
               {
-                "objectName": "Stick_Pickup"
+                "objectName": "stick_pickup"
+              },
+              {
+                "objectName": "real_shoot"
+              },
+              {
+                "objectName": "real_apple_pickup"
+              },
+              {
+                "objectName": "textback"
               },
               {
                 "objectName": "ApplePickup"
@@ -7851,7 +7979,7 @@
             ]
           },
           {
-            "objectName": "HolyStick"
+            "objectName": "EcoFork"
           },
           {
             "objectName": "HealthBarHorizontal"
@@ -7904,6 +8032,30 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music: https://youtu.be/xMVFMg4BKAI?si=QWd336X-L-_TKYE0"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Get app logo: https://play.google.com/store/apps/details?id=com.cbord.get&hl=en_US&pli=1"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7946,15 +8098,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "HolyStick"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Stick_Pickup"
+            "EcoFork"
           ]
         },
         {
@@ -7980,7 +8124,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Shoot"
+            "real_shoot"
           ]
         },
         {
@@ -7989,6 +8133,14 @@
           },
           "parameters": [
             "ObjectBackground"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "stick_pickup"
           ]
         }
       ],
@@ -8792,10 +8944,10 @@
                 "value": "FireBullet::FireBullet::FireTowardPosition"
               },
               "parameters": [
-                "BlueShirt",
+                "GreenShirt",
                 "FireBullet",
-                "BlueShirt.X()",
-                "BlueShirt.Y()",
+                "GreenShirt.X()",
+                "GreenShirt.Y()",
                 "EcoFriendlyFork",
                 "PlayerSkins.CenterX()",
                 "PlayerSkins.CenterY()",
@@ -8951,13 +9103,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Sounds\\BossFight.mp3",
-                "yes",
-                "1",
+                "3",
+                "20",
+                "20",
                 ""
               ]
             }
@@ -9097,7 +9250,7 @@
               },
               "parameters": [
                 "Apple5",
-                "BlueShirt",
+                "GreenShirt",
                 "",
                 "",
                 ""
@@ -9116,7 +9269,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "BlueShirt",
+                "GreenShirt",
                 "Health",
                 "-",
                 "1"
@@ -9168,6 +9321,30 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9195,7 +9372,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Shoot",
+                "real_shoot",
                 ""
               ]
             },
@@ -9204,7 +9381,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "ApplePickup",
+                "real_apple_pickup",
                 ""
               ]
             },
@@ -9217,16 +9394,20 @@
                 "apples",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TableSquareBrown",
+                ""
+              ]
             }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "colorB": 228,
@@ -9269,16 +9450,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "HolyStick",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Stick_Pickup",
+            "EcoFork",
             ""
           ]
         },
@@ -9296,7 +9468,16 @@
             "value": "Delete"
           },
           "parameters": [
-            "Shoot",
+            "real_shoot",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "stick_pickup",
             ""
           ]
         }
@@ -9331,8 +9512,8 @@
           "parameters": [
             "",
             "explosion",
-            "BlueShirt.CenterX()",
-            "BlueShirt.CenterY()",
+            "GreenShirt.CenterX()",
+            "GreenShirt.CenterY()",
             ""
           ]
         },
@@ -9350,7 +9531,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "BlueShirt",
+            "GreenShirt",
             ""
           ]
         },
@@ -9420,7 +9601,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "HolyStick",
+            "EcoFork",
             ""
           ]
         },
@@ -9493,6 +9674,91 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Footsteps",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "90fce0e16aeed4a3ae9f90df580ea430bd0dca9630a4b9376672a1698138d887_MetalV1_Walk_06.wav",
+                "2",
+                "yes",
+                "20",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "PlayerSkins",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -9644,6 +9910,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "BitmapText_AutoTyping",
+      "type": "AutoTyping::BitmapText_AutoTyping"
     },
     {
       "name": "Effect",

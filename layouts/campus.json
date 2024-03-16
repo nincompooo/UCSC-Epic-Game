@@ -2456,8 +2456,8 @@
       "name": "Dialoguez2",
       "persistentUuid": "452a33c7-65d6-47ae-9a54-f7c9dc5df270",
       "width": 0,
-      "x": 283,
-      "y": 456,
+      "x": 269,
+      "y": 460,
       "zOrder": 2176,
       "numberProperties": [],
       "stringProperties": [],
@@ -6008,7 +6008,7 @@
         }
       ],
       "content": {
-        "text": "Press X to attak",
+        "text": "Press X to attack",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -12589,7 +12589,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "slime_ball2",
+                  "image": "slime_ball3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15713,6 +15713,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Zombiue hit",
+                "",
+                "35",
+                ""
+              ]
             }
           ]
         },
@@ -16006,6 +16018,90 @@
         "textR": 0
       },
       "comment": "Trees/Grass pack: https://cupnooble.itch.io/sprout-lands-asset-pack"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Footsteps are from the assets library"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Footsteps",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "PlayerSkins",
+            "TopDownMovement"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "90fce0e16aeed4a3ae9f90df580ea430bd0dca9630a4b9376672a1698138d887_MetalV1_Walk_06.wav",
+            "2",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "PlayerSkins",
+            "TopDownMovement"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

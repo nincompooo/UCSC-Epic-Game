@@ -9867,7 +9867,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewTiledSprite2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
         "name": "NewTiledSprite2",
         "smoothed": true,
         "userAdded": true
@@ -10820,7 +10820,7 @@
         "alwaysLoaded": false,
         "file": "assets/Fight Area.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Fight Area.png\"}",
         "name": "Fight Area",
         "smoothed": true,
         "userAdded": true
@@ -10864,7 +10864,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite73.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite73.png\"}",
         "name": "NewSprite61",
         "smoothed": true,
         "userAdded": false
@@ -11040,7 +11040,7 @@
         "alwaysLoaded": false,
         "file": "assets/ZombFace.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ZombFace.png\"}",
         "name": "ZombFace",
         "smoothed": true,
         "userAdded": true
@@ -12471,7 +12471,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead9.png\"}",
         "name": "dead9",
         "smoothed": true,
         "userAdded": true
@@ -12480,7 +12480,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead10.png\"}",
         "name": "dead10",
         "smoothed": true,
         "userAdded": true
@@ -12489,7 +12489,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead11.png\"}",
         "name": "dead11",
         "smoothed": true,
         "userAdded": true
@@ -12498,7 +12498,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead12.png\"}",
         "name": "dead12",
         "smoothed": true,
         "userAdded": true
@@ -12507,7 +12507,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead13.png\"}",
         "name": "dead13",
         "smoothed": true,
         "userAdded": true
@@ -12516,7 +12516,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead14.png\"}",
         "name": "dead14",
         "smoothed": true,
         "userAdded": true
@@ -12525,7 +12525,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead15.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead15.png\"}",
         "name": "dead15",
         "smoothed": true,
         "userAdded": true
@@ -12534,7 +12534,7 @@
         "alwaysLoaded": false,
         "file": "assets/dead16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dead16.png\"}",
         "name": "dead16",
         "smoothed": true,
         "userAdded": true
@@ -16186,6 +16186,241 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Walk_09.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f213fe0846789fb34ea4f0dad5e927ee47b41c12fabb8146d097a4d8eed0fb9b_Walk_09.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Walk/f213fe0846789fb34ea4f0dad5e927ee47b41c12fabb8146d097a4d8eed0fb9b_Walk_09.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MetalV1_Walk_06.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "90fce0e16aeed4a3ae9f90df580ea430bd0dca9630a4b9376672a1698138d887_MetalV1_Walk_06.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Metal/Walk/90fce0e16aeed4a3ae9f90df580ea430bd0dca9630a4b9376672a1698138d887_MetalV1_Walk_06.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stick2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stick2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/table square brown2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "table square brown",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/table square brown3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "table square brown2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Tile2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Floor Tile2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Tile3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Floor Tile3.png\"}",
+        "name": "Floor Tile3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite431.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite431",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead30",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead33",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead34",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead35",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead36",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/slime_ball3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "slime_ball3",
+        "smoothed": true,
         "userAdded": true
       }
     ],
