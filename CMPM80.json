@@ -19003,7 +19003,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview276.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview276.png\"}",
         "name": "cynthia-removebg-preview276",
         "smoothed": true,
         "userAdded": true
@@ -19012,7 +19012,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview277.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview277.png\"}",
         "name": "cynthia-removebg-preview277",
         "smoothed": true,
         "userAdded": true
@@ -19021,7 +19021,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview278.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview278.png\"}",
         "name": "cynthia-removebg-preview278",
         "smoothed": true,
         "userAdded": true
@@ -19030,7 +19030,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview279.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview279.png\"}",
         "name": "cynthia-removebg-preview279",
         "smoothed": true,
         "userAdded": true
@@ -19039,7 +19039,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview280.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview280.png\"}",
         "name": "cynthia-removebg-preview280",
         "smoothed": true,
         "userAdded": true
@@ -19048,7 +19048,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview281.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview281.png\"}",
         "name": "cynthia-removebg-preview281",
         "smoothed": true,
         "userAdded": true
@@ -19057,7 +19057,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview282.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview282.png\"}",
         "name": "cynthia-removebg-preview282",
         "smoothed": true,
         "userAdded": true
@@ -19066,7 +19066,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview283.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview283.png\"}",
         "name": "cynthia-removebg-preview283",
         "smoothed": true,
         "userAdded": true
@@ -19075,7 +19075,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview284.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview284.png\"}",
         "name": "cynthia-removebg-preview284",
         "smoothed": true,
         "userAdded": true
@@ -19084,7 +19084,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview285.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview285.png\"}",
         "name": "cynthia-removebg-preview285",
         "smoothed": true,
         "userAdded": true
@@ -19093,7 +19093,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview286.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview286.png\"}",
         "name": "cynthia-removebg-preview286",
         "smoothed": true,
         "userAdded": true
@@ -19102,7 +19102,7 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview287.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview287.png\"}",
         "name": "cynthia-removebg-preview287",
         "smoothed": true,
         "userAdded": true
@@ -19111,10 +19111,128 @@
         "alwaysLoaded": false,
         "file": "assets/cynthia-removebg-preview288.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cynthia-removebg-preview288.png\"}",
         "name": "cynthia-removebg-preview288",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "buzzing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "buzzing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview289.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview289",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview290.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview290",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview291.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview291",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview292.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview292",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview293.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview293",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview294.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview294",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview295.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview295",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview296.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview296",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview297.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview297",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview298.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview298",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview299.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview299",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cynthia-removebg-preview300.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cynthia-removebg-preview300",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
